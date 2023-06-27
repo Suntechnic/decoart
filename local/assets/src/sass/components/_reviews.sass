@@ -1,0 +1,128 @@
+.reviews
+
+  &__slider
+    position: relative
+    padding-top: 35px
+    overflow: hidden
+    margin: 0 -50px
+    width: calc(100% + 100px)
+
+    &:after
+      position: absolute
+      left: 0
+      top: 0
+      width: 50px
+      height: 100%
+      content: ''
+      background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,0) 100%)
+      z-index: 2
+
+    &:before
+      position: absolute
+      right: 0
+      top: 0
+      width: 50px
+      height: 100%
+      content: ''
+      background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%)
+      z-index: 2
+
+  .slider-controls
+    margin-top: 50px
+
+  &__item
+    max-width: 1100px
+    width: 100%
+    margin: 0 auto
+    padding: 0 50px
+    height: 100%
+
+    p
+      font-size: 24px
+      color: $grey
+      line-height: 1.5
+      font-weight: 300
+
+  .swiper-wrapper
+    align-items: stretch
+
+  .swiper-slide
+    height: auto
+
+  &__author
+    text-align: center
+    padding-top: 50px
+    margin-top: auto
+
+    .name
+      font-size: 16px
+      color: $black
+      font-weight: 700
+      font-family: $dewi
+      line-height: 1.2
+
+    .about
+      margin-top: 10px
+      font-size: 14px
+      font-weight: 300
+
+
+
++r($desktop)
+  .reviews
+
+    &__slider
+      margin: 0 -35px
+      width: calc(100% + 70px)
+      padding-top: 0
+
+      &:before
+        width: 35px
+
+      &:after
+        width: 35px
+
+    &__item
+      padding: 0 35px
+
+      p
+        font-size: 20px
+
+    &__author
+      padding-top: 30px
+
+    .slider-controls
+      margin-top: 30px
+
+
++r($tablet)
+  .reviews
+
+    &__slider
+      margin: 0 -20px
+      width: calc(100% + 40px)
+
+      &:after
+        display: none
+
+      &:before
+        display: none
+
+    &__item
+      padding: 0 20px
+
+      p
+        font-size: 16px
+
+    &__author
+      padding-top: 20px
+
+      .name
+        font-size: 14px
+
+      .about
+        margin-top: 5px
+        font-size: 12px
+
+    .slider-controls
+      margin-top: 25px

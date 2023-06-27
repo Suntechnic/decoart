@@ -1,0 +1,299 @@
+.project_uslugi{
+    padding-top: 68px;
+}
+.project_uslugi .container{
+    width: 85%;
+}
+.project_uslugi .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project_uslugi .box .left{
+    width: 48%;
+    padding-top: 68px;
+}
+.project_uslugi .box .left .sub-title{
+    font-size: 14px;
+    color: #00b9e5;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: -2px;
+}
+.project_uslugi .box .left .title{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    margin: 0 0 100px 0;
+    letter-spacing: 1px;
+}
+.project_uslugi .text{
+    font-size: 20px;
+    line-height: 36px;
+    color: #7d7d7d;
+    padding: 0 0 0 99px;
+    width: 92%;
+    margin-bottom: 38px;
+}
+.project_uslugi .text p{
+    margin-bottom: 36px;
+    letter-spacing: 0.8px;
+}
+.project_uslugi .text ol{
+    margin: 41px 0 0 0;
+    padding: 0 0 0 24px;
+}
+.project_uslugi .text ol li{
+    letter-spacing: 0.8px;
+}
+.project_uslugi .text ol li:nth-child(11){
+    width: calc(100% + 400px);
+}
+.project_uslugi .text ol li:nth-child(13){
+    width: calc(100% + 500px);
+}
+.project_uslugi .box .right{
+    width: 68.4%;
+    margin-right: -18.5%;
+}
+.project_uslugi .box .right img{
+    width: 100%;
+}
+.project_tips{
+    padding-top: 37px;
+}
+.project_tips .container{
+    width: 85%;
+}
+.project_tips .title{
+    font-size: 50px;
+    color: #000000;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    margin: 0 0 70px 0;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #00b8e4;
+}
+.project_tips table{
+    width: 86.9%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.project_tips table td{
+    font-size: 20px;
+    color: #7d7d7d;
+    padding: 23px 8px;
+    letter-spacing: 0.8px;
+    border-top: 1px solid #e1e1e1;
+    white-space: nowrap;
+    text-align: right;
+}
+.project_tips table tr:last-child td{
+    border-bottom: 1px solid #e1e1e1;
+}
+.project_tips table td:first-child{
+    text-align: left;
+}
+.project_tips .text{
+    width: 85.8%;
+    margin: 32px auto 0 auto;
+}
+.project_tips .text ul li{
+    font-size: 14px;
+    color: #7d7d7d;
+    position: relative;
+    padding: 0 0 0 16px;
+    letter-spacing: 0.6px;
+    margin-bottom: 7px;
+}
+.project_tips .text ul li b{
+    font-weight: normal;
+    color: #00b8e4;
+}
+.project_tips .text ul li:before{
+    content: '—';
+    font-size: 14px;
+    color: #7d7d7d;
+    position: absolute;
+    left: 0;
+}
+.calculation.page_calc {
+    padding-top: 0;
+}
+.calculation.page_calc .box {
+    margin-top: 37px;
+}
+.calculation.page_calc .box .left{
+    margin-top: 55px;
+}
+.calculation.page_calc .box .right .item .txt ul + span {
+    margin: 15px 0 0 0;
+}
+.calculation.page_calc .box .right .item .panel-title{
+    padding: 0 20px;
+}
+.calculation.page_calc .itog-bot p{
+    font-size: 16px;
+    color: #7d7d7d;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+.calculation .box .right .item .itog-bot .price{
+    font-size: 24px;
+    color: #000000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.3px;
+    padding: 8px 0;
+    background: none;
+}
+.calculation.page_calc .box .text{
+    width: 100%;
+    font-size: 16px;
+    color: #7d7d7d;
+    letter-spacing: -0.3px;
+    margin-top: 20px;
+}
+.calculation .box .left .info{
+    font-size: 16px;
+    color: #7d7d7d;
+    position: absolute;
+    width: 78%;
+    bottom: -26px;
+    left: 0;
+    right: 31px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+}
+@media(max-width: 1613px){
+    .project_uslugi .container,
+    .project_tips .container{
+        width: 92%;
+    }
+}
+@media(max-width: 1499px){
+    .project_uslugi .container,
+    .project_tips .container{
+        width: 100%;
+    }
+    .project_uslugi .box .left .title{
+        margin: 0 0 50px 0;
+    }
+    .project_uslugi .text{
+        padding: 0;
+        font-size: 18px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .project_uslugi .text p {
+        margin-bottom: 15px;
+    }
+    .project_tips .title{
+        font-size: 35px;
+    }
+    .project_tips table {
+        width: 100%;
+    }
+    .project_tips table td {
+        font-size: 18px;
+    }
+    .project_tips .text {
+        width: 100%;
+    }
+    .calculation .box .right .item .itog-bot .price{
+        padding: 12px 0;
+    }
+    .calculation.page_calc .itog-bot p {
+        font-size: 13px;
+    }
+}
+@media(max-width: 1124px){
+    .project_uslugi .box .left {
+        width: 100%;
+    }
+    .project_uslugi .box .left .title {
+        margin: 0 0 30px 0;
+        font-size: 40px;
+    }
+    .project_uslugi .text {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .project_uslugi .box .right {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .project_tips {
+        padding-top: 50px;
+    }
+    .project_tips .title {
+        font-size: 35px;
+    }
+    .project_tips table td{
+        white-space: normal;
+    }
+    .project_uslugi .text ol li:nth-child(11),
+    .project_uslugi .text ol li:nth-child(13){
+        width: 100%;
+    }
+    .project_uslugi .text ol {
+        margin: 20px 0 0 0;
+    }
+    .calculation.page_calc .box {
+        margin-top: 0;
+    }
+    .calculation.page_calc .box .left {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .calculation .box .left .info{
+        width: 100%;
+        right: 0;
+        bottom: -5px;
+        font-size: 14px;
+    }
+    .calculation .box .right .tabcontent .box{
+        padding: 0;
+    }
+}
+@media(max-width: 992px){
+    .project_tips .title {
+        font-size: 25px;
+    }
+    .project_tips table td {
+        font-size: 14px;
+        padding: 10px;
+        letter-spacing: 0;
+    }
+    .calculation .box .right .item .itog-bot .price {
+        padding: 7px 0;
+    }
+}
+@media(max-width: 760px){
+    .project_tips .title {
+        font-size: 20px;
+    }
+    .project_uslugi .box .left{
+	    padding-top: 25px;
+    }
+}
+@media(max-width: 569px){
+    .project_uslugi .box .left .title{
+        font-size: 30px;
+    }
+    .project_tips .title {
+        margin-bottom: 20px;
+    }
+    .project_tips table td {
+        padding: 10px 5px;
+    }
+    .project_tips table td:first-child {
+        width: 60%;
+    }
+}

@@ -1,0 +1,246 @@
+.int-design
+
+  h2
+    margin-bottom: 0
+
+  &__title
+    position: relative
+    font-size: 32px
+    line-height: 1.2
+    font-family: $dewi
+    text-transform: uppercase
+    color: $black
+    font-weight: 700
+    padding-right: 80px
+    cursor: pointer
+
+    &.is-active
+      &:after
+        top: 40%
+        transform: translateY(-50%) rotate(45deg)
+
+    &:after
+      width: 40px
+      height: 40px
+      border: 2px solid $blue
+      content: ''
+      position: absolute
+      top: 65%
+      right: 10px
+      transform: translateY(-50%) rotate(225deg)
+      border-top: none
+      border-left: none
+      transition: all $transitionSpeed $ease
+
+    span
+      font-size: 90px
+      font-weight: 700
+      color: $blue
+      font-family: $dewi
+      top: 50%
+      transform: translateY(-50%)
+      position: absolute
+      left: -100px
+      line-height: 1
+
+  &__item
+    padding: 45px 0
+    max-width: 1100px
+    margin: 0 auto
+    border-bottom: 1px solid #ebebeb
+
+  &__hidden
+    display: none
+
+  &__row
+    padding-top: 50px
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+
+  &__info
+    max-width: 450px
+    flex: 1 0 auto
+    padding-right: 30px
+
+    p
+      font-size: 18px
+      color: $grey
+      line-height: 1.4
+      margin-bottom: 30px
+
+  &__persons
+    display: flex
+    align-items: flex-start
+    margin: 0 -10px
+
+  &__person-el
+    padding: 0 10px
+
+    .name
+      font-size: 16px
+      color: $black
+      line-height: 1.2
+      margin-top: 20px
+      font-family: $dewi
+      text-transform: uppercase
+
+    .about
+      font-size: 12px
+      color: $grey
+      font-weight: 300
+      margin-top: 12px
+
+    .btn
+      margin-top: 25px
+      padding-left: 30px
+      padding-right: 30px
+
+  &__person-image
+    font-size: 0
+
+    img
+      max-width: 200px
+      width: 100%
+      height: auto
+
++r($wide)
+  .int-design
+
+    &__title
+      font-size: 28px
+      padding-right: 60px
+
+      &.is-active
+        &:after
+          top: 40%
+          transform: translateY(-50%) rotate(45deg)
+
+      &:after
+        width: 32px
+        height: 32px
+        top: 65%
+        right: 5px
+
+      span
+        font-size: 70px
+        left: -80px
+
+    &__item
+      padding: 40px 0
+      margin-left: 80px
+
+    &__row
+      padding-top: 40px
+
++r($desktop)
+  .int-design
+
+    &__title
+      font-size: 24px
+      padding-right: 50px
+
+      span
+        font-size: 50px
+        left: -70px
+
+    &__item
+      padding: 35px 0
+      margin-left: 70px
+
+    &__row
+      padding-top: 30px
+
+    &__info
+      flex: 1 0 50%
+      padding-right: 20px
+
+      p
+        font-size: 16px
+        margin-bottom: 25px
+
+    &__person-el
+
+      .name
+        font-size: 14px
+        margin-top: 15px
+
+      .about
+        margin-top: 8px
+
+      .btn
+        margin-top: 20px
+
++r($tablet)
+  .int-design
+
+    &__title
+      font-size: 16px
+      padding-right: 20px
+      padding-left: 40px
+
+      span
+        font-size: 32px
+        left: 0
+        min-width: 30px
+        text-align: center
+
+      &.is-active
+        &:after
+          top: 45%
+
+      &:after
+        width: 14px
+        height: 14px
+        top: 60%
+        right: 0
+
+    &__item
+      padding: 15px 0
+      margin-left: 0
+
+    &__row
+      padding-top: 20px
+      flex-direction: column
+
+    &__info
+      flex: 1 0 100%
+      width: 100%
+      padding-right: 0
+
+      p
+        font-size: 14px
+        margin-bottom: 15px
+
+    &__person-el
+
+      .name
+        font-size: 14px
+        margin-top: 15px
+
+      .about
+        margin-top: 8px
+
+      .btn
+        margin-top: 20px
+
+    &__persons
+      width: calc(100% + 20px)
+      margin: 0 -10px
+      flex-wrap: wrap
+
+    &__person-el
+      width: 50%
+      padding: 10px
+
+      .name
+        font-size: 12px
+        margin-top: 10px
+
+      .about
+        margin-top: 5px
+
+      .btn
+        padding: 15px
+        font-size: 12px
+        margin-top: 15px

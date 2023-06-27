@@ -1,0 +1,88 @@
+/* GENERAL BEGIN
+  
+*
+  box-sizing: border-box
+  outline: none
+
+body, html
+  background: $white
+  color: $fontColor
+  font-family: $default
+  font-size: 18px
+  font-weight: 400
+  line-height: normal
+  min-width: 320px
+  max-width: 100%
+  margin: 0
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.page
+  display: flex
+  flex-direction: column
+  height: 100vh
+
+  main
+    // used for sticky footer (flexbox way)
+    // padding-top: 95px
+    flex: 1 0 auto
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    position: relative
+    z-index: 50
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+  main
+    flex: none
+    display: block
+
+// section
+//   &:nth-child(1)
+//     padding-top: 260px
+
+.container
+  max-width: 1500px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  padding-left: 50px
+  padding-right: 50px
+  transition: all $transitionSpeed $ease
+
+  &--small
+    max-width: 1300px
+
+  // &__small
+  //   max-width: 1200px
+
+  // &__extra-small
+  //   max-width: 1100px
+
++r($desktop)
+
+  .container
+    padding-left: 35px
+    padding-right: 35px
+
+  // section
+  //   &:nth-child(1)
+  //     padding-top: 200px
+
++r($tablet)
+
+  body, html
+    font-size: 14px
+
+    &.is-fixed
+      overflow: hidden
+
+  .container
+    padding-left: 20px
+    padding-right: 20px
+
+  // section
+  //   &:nth-child(1)
+  //     padding-top: 90px
+
+/* GENERAL END

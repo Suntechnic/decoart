@@ -1,0 +1,277 @@
+.row-item
+  display: flex
+  justify-content: center
+  align-items: stretch
+
+  & + .row-item
+    margin-top: 120px
+
+  &--reverse
+    flex-direction: row-reverse
+
+    .row-item__image
+      margin-left: 0
+      margin-right: 50px
+
+  &__info-container
+    width: 50%
+    flex: 1 0 50%
+    align-self: center
+    padding: 0 50px
+    max-width: 1000px
+
+  &__info
+    max-width: 750px
+    width: 100%
+    margin: 0 auto
+
+    .small
+      font-size: 18px
+      letter-spacing: 2px
+      text-transform: uppercase
+      font-weight: 400
+      color: $black
+
+    .title
+      font-size: 50px
+      font-weight: 700
+      color: $black
+      font-family: $dewi
+      margin: 10px 0
+      text-transform: uppercase
+      margin-left: -5px
+
+  &__image
+    min-height: 730px
+    width: 50%
+    background-size: cover
+    overflow: hidden
+    background-position: center
+    background-repeat: no-repeat
+    max-width: 1000px
+    margin-left: 50px
+
+  &__icons
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: flex-start
+    margin: 0 -15px
+    width: calc(100% + 30px)
+    padding-top: 15px
+
+    &--column
+      flex-direction: column
+      align-items: flex-start
+      justify-content: flex-start
+
+      .row-item__icons-el
+        width: 100%
+
+  &__icons-el
+    width: 50%
+    padding: 15px
+
+    p
+      font-size: 18px
+      line-height: 1.2
+      font-weight: 300
+      color: $grey
+
+  &__icons-item
+    display: flex
+    align-items: center
+
+  &__icon
+    max-width: 70px
+    width: 100%
+    min-width: 70px
+    margin-right: 25px
+    
+    .image
+      background-size: 90%
+      background-repeat: no-repeat
+
+  &__btn
+    padding-top: 75px
+    text-align: center
+    display: flex
+    justify-content: center
+
++r($hd)
+  .row-item
+
+    & + .row-item
+      margin-top: 100px
+
+    &__info
+
+      .title
+        font-size: 40px
+        margin-left: -4px
+
+    &__image
+      min-height: 630px
+
++r($wide)
+  .row-item
+
+    &--reverse
+
+      .row-item__image
+        margin: 0
+
+    & + .row-item
+      margin-top: 80px
+
+    &__image
+      margin-left: 30px
+
+    &__info
+
+      .title
+        font-size: 36px
+        margin-left: -3px
+
+    &__image
+      min-height: 580px
+      margin: 0
+
+    &__icons
+      margin: 0 -10px
+      width: calc(100% + 20px)
+
+    &__icons-el
+      padding: 10px
+
+      p
+        font-size: 16px
+
+    &__icon
+      max-width: 60px
+      min-width: 60px
+      margin-right: 20px
+      
+    &__btn
+      padding-top: 50px
+
++r($desktop)
+  .row-item
+    flex-direction: column
+    align-items: flex-start
+    justify-content: flex-start
+
+    &--reverse
+
+      .row-item__image
+        margin: 30px 0 0
+
+    & + .row-item
+      margin-top: 50px
+
+    &__info-container
+      width: 100%
+      flex: 1 0 100%
+      padding: 0 35px
+    
+    &__info
+      width: 100%
+      max-width: 100%
+
+      .title
+        font-size: 36px
+        margin-left: -3px
+
+    &__image
+      min-height: 1px
+      display: block
+      padding-bottom: 60%
+      width: 100%
+      margin: 30px 0 0
+
+    &__icons
+      margin: 0 -10px
+      width: calc(100% + 20px)
+
+      &--column
+        flex-direction: row
+        align-items: center
+        justify-content: flex-start
+
+        .row-item__icons-el
+          width: 50%
+
+    &__icons-el
+      padding: 10px
+
+      p
+        font-size: 16px
+
+    &__icon
+      max-width: 60px
+      min-width: 60px
+      margin-right: 20px
+      
+    &__btn
+      padding-top: 50px
+
++r($tablet)
+  .row-item
+
+    &--reverse
+
+      .row-item__image
+        margin: 20px 0 0
+
+    & + .row-item
+      margin-top: 30px
+    
+    &__info-container
+      padding: 0 20px
+    
+    &__info
+
+      .small
+        font-size: 14px
+
+      .title
+        font-size: 18px
+        margin-left: -1px
+
+    &__image
+      min-height: 1px
+      display: block
+      padding-bottom: 60%
+      width: 100%
+      margin: 30px 0 0
+
+    &__icons
+      margin: 0
+      width: 100%
+      flex-direction: column
+      align-items: flex-start
+      justify-content: flex-start
+      padding: 0
+
+      &--column
+        flex-direction: column
+        align-items: flex-start
+        justify-content: flex-start
+
+        .row-item__icons-el
+          width: 100%
+
+    &__icons-el
+      width: 100%
+      padding: 15px 0 0
+
+      p
+        font-size: 14px
+
+    &__icon
+      max-width: 50px
+      min-width: 50px
+      margin-right: 10px
+      
+    &__btn
+      padding-top: 25px

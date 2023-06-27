@@ -1,0 +1,80 @@
+/* ELEMENTS BEGIN
+
+.btn
+  display: inline-block
+  cursor: pointer
+  outline: none
+  border: 1px solid $blue
+  background: transparent
+  padding: 21px 45px
+  transition: all $transitionSpeed $ease
+  font-size: 14px
+  color: $blue
+  line-height: 1.2
+  border-radius: 10px
+  font-family: $default
+  font-weight: 300
+  text-align: center
+  text-transform: uppercase
+
+  &:hover
+    background: $blue
+    border-color: $blue
+    color: $white
+
+  &[disabled="disabled"]
+    border-color: #d1d1d1
+    background: #d1d1d1
+    pointer-events: none
+    color: $black
+
+  // &--border
+  //   background: $white
+  //   color: $fontColor
+
+  //   &[disabled="disabled"]
+  //     border-color: #d1d1d1
+  //     background: #fff
+  //     pointer-events: none
+  //     color: #d1d1d1
+
+  //   &:hover
+  //     color: $white
+  //     border-color: $fontColor
+  //     background: $fontColor
+
+  &--small
+    padding: 13px
+
+  &.disabled
+    border-color: #d1d1d1
+    background: #d1d1d1
+    pointer-events: none
+    color: $black
+
+  &--icon
+    display: flex
+    align-items: center
+    justify-content: center
+
+    svg
+      margin-right: 15px
+      min-width: 21px
+      width: 21px
+      height: 28px
+      order: -1
+
+      path
+        // transition: all $transitionSpeed $ease
+        stroke: currentColor
+
++r($desktop)
+  .btn
+    padding: 15px 35px
+
+    &--icon
+      padding: 15px
+      width: 100%
+
+
+/* ELEMENTS END

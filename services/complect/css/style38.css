@@ -1,0 +1,1843 @@
+.des-types__info-list ul p:before {
+    content: '—' !important;
+}
+.des-types__info-list a.link {
+    font-size: 14px;
+    color: #00b8e4;
+    text-decoration: none;
+    border-bottom: 1px dashed #00b8e4;
+    margin: 0 0 20px 20px;
+    display: inline-block;
+    letter-spacing: 1.2px;
+}
+.des-types__info-list a.link:hover{
+    border-bottom: 1px dashed transparent;
+}
+.des-types__info-list ul li {
+    font-size: 14px;
+    color: #7d7d7d;
+    position: relative;
+    padding: 0 !important;
+    letter-spacing: 0.7px;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 0;
+}
+.des-types__info-list ul li:nth-child(1),
+.des-types__info-list ul li:nth-child(2),
+.des-types__info-list ul li:nth-child(3),
+.des-types__info-list ul li:nth-child(4),
+.des-types__info-list ul.hide li{
+    height: auto;
+    margin-bottom: 13px;
+}
+.int-design__info .ras{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 53px;
+}
+.int-design__info .ras .btn.pdf{
+    border: none;
+    border-bottom: 1px dashed;
+    border-radius: 0;
+    padding: 0 0;
+    font-size: 14px;
+    margin: 7px 0 0 19px;
+    letter-spacing: 3px;
+}
+.int-design__info .ras .btn.pdf:hover{
+    background: transparent;
+    color: #00b8e4;
+    text-decoration: none;
+    border-bottom: 1px dashed transparent;
+}
+.int-design__item form{
+    width: 91%;
+}
+.int-design__item form .zag{
+    font-size: 24px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+}
+.int-design__item form .txt{
+    font-size: 14px;
+    color: #7d7d7d;
+    letter-spacing: 0.6px;
+    margin-bottom: 31px;
+}
+.int-design__item form .input-container{
+    margin-bottom: 37px;
+}
+.int-design__item form .btn{
+    background: #00b8e4;
+    border-color: #00b8e4;
+    color: #ffffff;
+}
+.int-design__item form .btn:hover{
+    background: #fff;
+    color: #00b8e4;
+}
+.service_super_heder{
+    position: relative;
+    padding-top: 135px;
+    height: 1065px;
+    overflow: hidden;
+}
+.service_super_heder .img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.service_super_heder .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service_super_heder .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+.service_super_heder .box .left{
+    width: 50%;
+}
+.service_super_heder .box .left .sub-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    letter-spacing: 0.3px;
+    margin: 0;
+    width: 95%;
+}
+.service_super_heder .box .left .title{
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    line-height: 80px;
+    margin-bottom: 46px;
+}
+.service_super_heder .box .left .text{
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+    margin: 55px 0 0 0;
+    width: 78%;
+}
+.service_super_heder .box .left .text p{
+    letter-spacing: 0.78px;
+    margin-bottom: 36px;
+}
+.service_super_heder .box .right{
+    width: 44.2%;
+}
+.service_super_heder .box .right .form{
+    background: #fff;
+    border-radius: 20px;
+    margin: 132px 0 0 0 !important;
+    padding: 42px 49px 49px 49px;
+}
+.service_super_heder .box .right .form .zag{
+    font-size: 18px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.service_super_heder .box .right .form .txt{
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.service_super_heder .box .right .form .input-container:nth-child(1) {
+    margin-top: 0;
+}
+.service_super_heder .box .right .form .input-container {
+    margin-top: 36px;
+    max-width: 520px;
+}
+.service_super_heder .box .right .form .btn{
+    margin: 40px 0 0 0;
+    color: #fff;
+    background: #00b8e4;
+}
+.service_super_heder .box .right .form .btn:hover{
+    color: #00b8e4;
+    background: #fff;
+}
+.service_super_heder .box .right .form p{
+    font-size: 10px;
+    color: #7d7d7d;
+    float: right;
+    width: 59%;
+    text-transform: uppercase;
+    margin: 56px 0 0 0;
+}
+.service_super_heder .box .right .form__thank{
+    right: -60px;
+    padding: 49px 46px 49px 49px;
+    max-width: 617px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 29px;
+    z-index: 10;
+}
+.service_super_heder .form__thank-info {
+    padding: 0;
+    width: 57%;
+}
+.service_super_heder .box .right .form .form__thank-info p.large{
+    float: none;
+    font-size: 30px;
+    color: #000;
+    margin: 0 0 10px 0;
+    width: auto;
+}
+.service_super_heder .box .right .form .form__thank-info p{
+    color: #252525;
+    float: none;
+    font-size: 14px;
+    margin: 0 0 0 3px;
+    width: auto;
+    letter-spacing: 1.4px;
+}
+.service_super_heder .form__thank-close {
+    width: 70px;
+    min-width: 70px;
+    height: 70px;
+}
+.vibor-nas{
+    padding-top: 85px;
+}
+.vibor-nas .spisok{
+    width: 92%;
+    margin: 77px auto 0 auto;
+}
+.vibor-nas .spisok .item{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.vibor-nas .spisok .item .icon{
+    width: 143px;
+}
+.vibor-nas .spisok .item .icon img{
+
+}
+.vibor-nas .spisok .item .text{
+    font-size: 24px;
+    color: #7d7d7d;
+    letter-spacing: 1px;
+}
+.kontrol-kachestva{
+    background: url("../img/img370.jpg") 0 0 no-repeat;
+    padding-top: 87px;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+.kontrol-kachestva h2{
+    color: #fff;
+    margin-bottom: 33px;
+}
+.kontrol-kachestva .spisok{
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+.kontrol-kachestva .spisok .item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kontrol-kachestva .spisok .item .icon{
+    font-size: 90px;
+    color: #00b8e4;
+    font-family: "RF Dewi Expanded", sans-serif;
+    width: 68px;
+    text-align: center;
+    margin-left: -12px;
+}
+.kontrol-kachestva .spisok .item .right{
+    border-bottom: 1px solid rgb(247 247 247 / 20%);
+    padding-bottom: 35px;
+    width: 90%;
+    margin-bottom: 13px;
+}
+.kontrol-kachestva .spisok .item .right .text{
+    font-size: 32px;
+    color: #f7f7f7;
+    font-family: "RF Dewi Expanded", sans-serif;
+    text-transform: uppercase;
+    margin: 18px 0 17px 0;
+    letter-spacing: 0.5px;
+}
+.kontrol-kachestva .spisok .item .right .mini-text{
+    font-size: 18px;
+    color: #f7f7f7;
+    letter-spacing: 0.8px;
+}
+.project_tips {
+    padding-top: 167px;
+}
+.project_tips .container {
+    width: 85%;
+}
+.project_tips .title{
+    font-size: 50px;
+    color: #000000;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    margin: 0 0 53px 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #00b8e4;
+}
+.project_tips .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 86%;
+    margin: 0 auto;
+}
+.project_tips .box .item{
+    width: 31%;
+}
+.project_tips .box .item .zag{
+    font-size: 24px;
+    color: #000000;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.project_tips .box .item .price{
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    margin-bottom: 28px;
+}
+.project_tips .box .item .price .name{
+    font-size: 14px;
+    color: #7d7d7d;
+    letter-spacing: 0.6px;
+    margin-right: 28px;
+}
+.project_tips .box .item .price .cena{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+.project_tips .box .item .bot{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 34px;
+}
+.project_tips .box .item .bot a.btn{
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+}
+.project_tips .box .item .bot a.link{
+    font-size: 14px;
+    color: #00b8e4;
+    text-decoration: underline;
+    width: 42.3%;
+    padding: 0 15px 0 0;
+    letter-spacing: 1.3px;
+}
+.project_tips .box .item .bot a.link:hover{
+    text-decoration: none;
+}
+.project_tips .box .item .spisok{
+
+}
+.project_tips .box .item .spisok ul li{
+    font-size: 14px;
+    color: #7d7d7d;
+    position: relative;
+    padding: 0 0 0 31px;
+    letter-spacing: 0.7px;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 0;
+}
+.project_tips .box .item .spisok ul li:nth-child(1),
+.project_tips .box .item .spisok ul li:nth-child(2),
+.project_tips .box .item .spisok ul li:nth-child(3),
+.project_tips .box .item .spisok ul li:nth-child(4),
+.project_tips .box .item .spisok ul.hide li{
+    height: auto;
+    margin-bottom: 16.5px;
+}
+.project_tips .box .item .spisok ul li:before{
+    content: "—";
+    font-size: 14px;
+    color: #7d7d7d;
+    position: absolute;
+    left: 0;
+}
+.project_tips .box .item .spisok a.link{
+    font-size: 14px;
+    color: #00b8e4;
+    text-decoration: none;
+    border-bottom: 1px dashed #00b8e4;
+    margin: 0 0 0 31px;
+    display: inline-block;
+    letter-spacing: 1.2px;
+}
+.project_tips .box .item .spisok a.link:hover{
+    border-bottom: 1px dashed transparent;
+}
+.project_tips .top-rice{
+    margin-top: 50px;
+    border: 1px solid #e1e1e1;
+    padding: 43px 98px 21px 98px;
+}
+.project_tips .top-rice .zag{
+    font-size: 24px;
+    color: #000000;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 25px;
+}
+.project_tips .top-rice .box{
+    width: 100%;
+}
+.project_tips .top-rice .box .left{
+    width: 25%;
+}
+.project_tips .top-rice .price{
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    margin-bottom: 28px;
+}
+.project_tips .top-rice .price .name{
+    font-size: 14px;
+    color: #7d7d7d;
+    letter-spacing: 0.6px;
+    margin-right: 28px;
+}
+.project_tips .top-rice .price .cena{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+.project_tips .top-rice .bot{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.project_tips .top-rice .bot a.btn{
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+}
+.project_tips .top-rice .bot a.link{
+    font-size: 14px;
+    color: #00b8e4;
+    text-decoration: underline;
+    width: 29%;
+    letter-spacing: 1.3px;
+}
+.project_tips .top-rice .bot a.link:hover{
+    text-decoration: none;
+}
+.project_tips .top-rice .spisok{
+    width: 65.4%;
+    margin-top: -9px;
+}
+.project_tips .top-rice .spisok ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project_tips .top-rice .spisok ul li{
+    font-size: 14px;
+    color: #7d7d7d;
+    position: relative;
+    padding: 0 0 0 31px;
+    letter-spacing: 0.7px;
+    margin-bottom: 16.5px;
+    width: 50%;
+}
+.project_tips .top-rice .spisok ul li:before{
+    content: "—";
+    font-size: 14px;
+    color: #7d7d7d;
+    position: absolute;
+    left: 0;
+}
+.nashi-priem{
+    background: url("../img/img389.jpg") 0 0 no-repeat;
+    margin: 168px 0 0 0;
+    padding-top: 87px;
+    padding-bottom: 193px;
+}
+.nashi-priem h2{
+    color: #fff;
+    margin-bottom: 83px;
+}
+.nashi-priem .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 0 auto;
+    width: 95.3%;
+}
+.nashi-priem .box .left{
+    width: 46.5%;
+    padding-top: 26px;
+}
+.nashi-priem .box .left .item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 51px;
+}
+.nashi-priem .box .left .item .icon{
+    width: 79px;
+    margin: 0 0 0 -7px;
+}
+.nashi-priem .box .left .item:nth-child(2) .icon{
+    width: 109px;
+    margin: 9px 0 0 -22px;
+}
+.nashi-priem .box .left .item:nth-child(3) .icon{
+    margin: -15px 0 0 -7px;
+}
+.nashi-priem .box .left .item .icon img{
+    width: 100%;
+}
+.nashi-priem .box .left .item .text{
+    font-size: 24px;
+    color: #fff;
+    width: 78.7%;
+    letter-spacing: 1px;
+}
+.nashi-priem .box .right{
+    width: 46.5%;
+}
+.nashi-priem .box .right .form{
+    background: #fff;
+    border-radius: 20px;
+    margin: 16px 0 0 0;
+    padding: 42px 49px 49px 49px;
+}
+.nashi-priem .box .right .form .zag{
+    font-size: 18px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.nashi-priem .box .right .form .txt{
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.nashi-priem .box .right .form .input-container:nth-child(1) {
+    margin-top: 0;
+}
+.nashi-priem .box .right .form .input-container {
+    margin-top: 36px;
+    max-width: 520px;
+}
+.nashi-priem .box .right .form .btn{
+    margin: 40px 0 0 0;
+    color: #fff;
+    background: #00b8e4;
+}
+.nashi-priem .box .right .form .btn:hover{
+    color: #00b8e4;
+    background: #fff;
+}
+.nashi-priem .box .right .form p{
+    font-size: 10px;
+    color: #7d7d7d;
+    float: right;
+    width: 59%;
+    text-transform: uppercase;
+    margin: 56px 0 0 0;
+}
+.nashi-priem .box .right .form__thank{
+    right: -60px;
+    padding: 49px 46px 49px 49px;
+    max-width: 617px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 29px;
+    z-index: 10;
+}
+.nashi-priem .box .right.form__thank-info {
+    padding: 0;
+    width: 57%;
+}
+.nashi-priem .box .right .form .form__thank-info p.large{
+    float: none;
+    font-size: 30px;
+    color: #000;
+    margin: 0 0 10px 0;
+    width: auto;
+}
+.nashi-priem .box .right .form .form__thank-info p{
+    color: #252525;
+    float: none;
+    font-size: 14px;
+    margin: 0 0 0 3px;
+    width: auto;
+    letter-spacing: 1.4px;
+}
+.nashi-priem .box .right .form__thank-close {
+    width: 70px;
+    min-width: 70px;
+    height: 70px;
+}
+.material{
+    padding-top: 169px;
+}
+.material h2{
+    margin-bottom: 49px;
+}
+.material .text{
+    font-size: 24px;
+    color: #7d7d7d;
+    width: 86%;
+    margin: 0 auto 0 auto;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.material .spisok{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 81%;
+    margin: 122px auto 0 auto;
+}
+.material .spisok .item{
+    width: 21%;
+    margin-bottom: 111px;
+    margin-right: 60px;
+}
+.material .spisok .item:nth-child(4n){
+    margin-right: 0;
+}
+.material .spisok .item .img{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.material .spisok .item .img img{
+
+}
+.material .spisok .item .txt{
+    font-size: 16px;
+    color: #7d7d7d;
+    text-align: center;
+}
+.int-design{
+    padding-top: 86px;
+}
+.int-design__item {
+    padding: 41px 0 45px 0 !important;
+    max-width: 1100px;
+    margin: 0 100px 0 auto;
+}
+.int-design__item .text{
+    padding: 40px 49px 0 49px;
+    margin-bottom: 132px;
+}
+.int-design__item .int-design__info .text{
+    padding: 0;
+}
+.int-design__item .text p{
+    font-size: 18px;
+    color: #7d7d7d;
+    letter-spacing: 0.7px;
+    margin-bottom: 29px;
+}
+.int-design__item .text p span{
+    color: #00b9e5;
+}
+.int-design__item .zag{
+    font-size: 22px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 51px 0 51px;
+    letter-spacing: 0.4px;
+    margin-bottom: 76px;
+}
+.int-design__item .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.int-design__item .box .item{
+    width: 26.4%;
+    margin-bottom: 57px;
+}
+.int-design__item .box .item .img{
+    width: 85px;
+    margin: 0 auto;
+    height: 115px;
+}
+.int-design__item .box .item .img img{
+
+}
+.int-design__item .box .item .name{
+    text-align: center;
+    font-size: 16px;
+    color: #7d7d7d;
+    width: fit-content;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+}
+.int-design__item .box .item:nth-child(2){
+    width: 22%;
+}
+.int-design__item .box .item:nth-child(2) .img{
+    width: 90px;
+}
+.int-design__item .box .item:nth-child(3){
+    width: 21%;
+}
+.int-design__item .box .item:nth-child(3) .img{
+    width: 98px;
+}
+.int-design__item .box .item:nth-child(4){
+    width: 27%;
+}
+.int-design__item .box .item:nth-child(4) .img{
+    width: 101px;
+    padding-left: 35px;
+}
+.int-design__item .box .item:nth-child(5){
+    width: 21%;
+}
+.int-design__item .box .item:nth-child(5) .img{
+    width: 69px;
+}
+.int-design__item .box .item:nth-child(6){
+    width: 10%;
+}
+.int-design__item .box .item:nth-child(6) .img{
+    width: 69px;
+}
+.int-design__item .box .item:nth-child(7){
+    width: 14%;
+}
+.int-design__item .box .item:nth-child(7) .img{
+    width: 145px;
+    padding-top: 22px;
+}
+.int-design__item .box .item:nth-child(8){
+    width: 11%;
+}
+.int-design__item .box .item:nth-child(8) .img{
+    width: 90px;
+}
+.int-design__item .box .item:nth-child(9){
+    width: 22%;
+}
+.int-design__item .box .item:nth-child(9) .img{
+    width: 96px;
+}
+.int-design__item .sub-zag{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-weight: 700;
+    margin: -12px 0 90px 0;
+    letter-spacing: 0.6px;
+}
+.int-design__item .sub-zag + .zag{
+    margin-bottom: 51px;
+}
+.int-design__item .spisok{
+    margin-bottom: 88px;
+}
+.int-design__item .spisok .item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 38px 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+.int-design__item .spisok .item .img{
+    width: 90px;
+    margin: 5px 0 0 60px;
+}
+.int-design__item .spisok .item:nth-child(2) .img{
+    width: 78px;
+    margin: 12px 0 0 66px;
+}
+.int-design__item .spisok .item:nth-child(3) .img{
+    width: 63px;
+    margin: 20px 0 0 73px;
+}
+.int-design__item .spisok .item:nth-child(4) .img{
+    width: 110px;
+    margin: 10px 0 0 50px;
+}
+.int-design__item .spisok .item:nth-child(5) .img{
+    width: 101px;
+    margin: 7px 0 0 54px;
+}
+.int-design__item .spisok .item .img img{
+    width: 100%;
+}
+.int-design__item .spisok .item .right{
+    width: 80%;
+}
+.int-design__item .spisok .item .right .tit{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-bottom: 9px;
+}
+.int-design__item .spisok .item .right .txt{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7d7d7d;
+    letter-spacing: 0.67px;
+    width: 94%;
+    padding: 0;
+}
+.int-design__item .spisok + .zag{
+    margin-bottom: 21px;
+}
+.int-design__item .txt{
+    font-size: 16px;
+    color: #7d7d7d;
+    padding: 0 50px;
+    letter-spacing: 0.7px;
+}
+.int-design__item .tables{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-top: 36px;
+}
+.int-design__item .tables .item{
+    width: 30%;
+}
+.int-design__item .tables .item .block{
+    margin-bottom: 24px;
+}
+.int-design__item .tables .item .block .name{
+    font-size: 16px;
+    color: #fff;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #00b8e4;
+    text-align: center;
+    padding: 6px 30px 9px 30px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.int-design__item .tables .item .block .price{
+    font-size: 18px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-weight: 700;
+    background: #f4f6f9;
+    height: 70px;
+    padding-bottom: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.int-design__item .tables .item:first-child .block .price{
+    text-transform: uppercase;
+}
+.int-design__item .tables .item .block .price .num{
+    font-size: 24px;
+    color: #000;
+    margin: 0 8px;
+    line-height: normal;
+}
+.int-design__item .tables .item .block .price span{
+    color: #00b8e4;
+}
+.int-design__item .tables .item ul{
+    padding: 0;
+    margin: 0 0 21px 0;
+    list-style: none;
+}
+.int-design__item .tables .item ul li{
+    font-size: 16px;
+    color: #7d7d7d;
+    position: relative;
+    padding: 0 0 0 26px;
+    letter-spacing: 0.7px;
+}
+.int-design__item .tables .item ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    border: 3px solid transparent;
+    border-left: 5px solid #00b8e4;
+}
+.int-design__item .tables .item span{
+    font-size: 14px;
+    color: #7d7d7d;
+    letter-spacing: 0.6px;
+    line-height: 18px;
+    display: block;
+}
+.int-design__item .tables .item span i{
+    color: #00b8e4;
+}
+.int-design__item .info{
+    font-size: 16px;
+    color: #7d7d7d;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    border: 1px solid #00b8e4;
+    margin: 34px auto 4px auto;
+    width: 91%;
+    padding: 24px 33px 23px 170px;
+    background: url('../img/icon71.svg') 48px 50% no-repeat;
+    background-size: 70px;
+}
+.int-design__item .text-big{
+    padding: 37px 49px 0 49px;
+    margin-bottom: 30px;
+}
+.int-design__item .text-big p{
+    font-size: 22px;
+    letter-spacing: 0.9px;
+    line-height: 30px;
+    color: #7d7d7d;
+}
+.int-design__item .infor{
+    background: #f4f6f9;
+    width: 91%;
+    margin: 0 auto 27px auto;
+    padding: 27px 40px;
+}
+.int-design__item .infor span{
+    font-size: 16px;
+    color: #7d7d7d;
+    display: block;
+    letter-spacing: 0.7px;
+    margin-bottom: 6px;
+}
+.int-design__item .infor strong{
+    font-size: 22px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.int-design__item .infor strong i{
+    color: #00b8e4;
+}
+.int-design__item .infor + .txt{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+.int-design__item .txt-t{
+    font-size: 14px;
+    color: #7d7d7d;
+    padding: 0 50px;
+    letter-spacing: 0.7px;
+    margin-bottom: 13px;
+}
+.int-design__item .txt-t span{
+    color: #00b8e4;
+    width: 10px;
+    display: inline-block;
+}
+.int-design__title{
+    padding-left: 48px;
+}
+.int-design__title span{
+    left: -81px !important;
+    top: 93% !important;
+}
+.int-design__title:after{
+    right: -18px !important;
+}
+.int-design__row {
+    padding-top: 32px;
+}
+.int-design__info {
+    max-width: 765px;
+}
+.int-design__info p{
+    letter-spacing: 0.77px;
+    margin-bottom: 22px;
+    line-height: 24px;
+}
+.int-design__persons .int-des{
+    width: 75%;
+    margin: 0 0 0 57px;
+}
+.int-design__persons .int-des p{
+    letter-spacing: 0.35px;
+}
+.int-design__info .btn.pdf{
+    padding: 22px 24px 19px 74px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    margin-top: 28px;
+}
+.int-design__person-el{
+    margin-left: 32px;
+}
+.int-design__person-el:last-child{
+    margin-right: 100px;
+}
+.int-design__item .spisok{
+
+}
+.int-design__item .spisok .item{
+    border: 1px solid #ebebeb;
+    margin: 90px 0 0 0;
+    padding: 44px 0;
+}
+.int-design__item .spisok .name{
+    font-size: 22px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto 56px auto;
+    letter-spacing: 0.4px;
+    width: 89.5%;
+}
+.int-design__item .spisok .name span{
+    text-transform: none;
+}
+.int-design__item .spisok .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 32px 0 23px;
+}
+.int-design__item .spisok .box .li{
+    width: 17%;
+}
+.int-design__item .spisok .box .li .icon{
+    width: fit-content;
+    margin: 0 auto;
+    height: 102px;
+}
+.int-design__item .spisok .box .li .icon img{
+
+}
+.int-design__item .spisok .box .li .text{
+    display: block;
+    font-size: 16px;
+    color: #7d7d7d;
+    padding: 0;
+    text-align: center;
+}
+.int-design__item .spisok .item:nth-child(2){
+    border: none;
+    margin: 0 0 0 0;
+}
+.int-design__item .spisok .item:nth-child(2) .box .li .icon{
+    height: 116px;
+}
+.int-design__item .spisok .item:nth-child(2) .box .li:nth-child(1),
+.int-design__item .spisok .item:nth-child(2) .box .li:nth-child(2),
+.int-design__item .spisok .item:nth-child(2) .box .li:nth-child(3),
+.int-design__item .spisok .item:nth-child(2) .box .li:nth-child(4),
+.int-design__item .spisok .item:nth-child(2) .box .li:nth-child(5){
+    margin-bottom: 62px;
+}
+.int-design__item .spisok .item:nth-child(3){
+    margin: 2px 0 0 0;
+    padding-bottom: 9px;
+}
+.int-design__item .spisok .item:nth-child(3) .box .li{
+    margin-bottom: 58px;
+}
+.int-design__item .spisok .item:nth-child(3) .box .li:last-child(1),
+.int-design__item .spisok .item:nth-child(3) .box .li:last-child(2){
+    margin-bottom: 0;
+}
+.int-design__item .spisok .item:nth-child(3) .box .li:last-child{
+    margin-right: auto;
+    margin-left: 33px;
+}
+.int-design__item .spisok .item:nth-child(3) .box .li .icon{
+    height: 128px;
+}
+.int-design__item .spisok .info{
+    font-size: 16px;
+    color: #7d7d7d;
+    text-align: center;
+    letter-spacing: 0.7px;
+    padding: 21px 0 0 0;
+}
+.int-design__item .spisok .info span{
+    color: #00b9e5;
+}
+.projects{
+    padding-top: 166px;
+}
+.projects__links-el {
+    padding: 20px 50px;
+}
+.projects__links-image .image {
+    padding-bottom: 73%;
+}
+.projects .projects__button{
+    margin-top: 34px;
+}
+.des-types{
+    padding-top: 144px;
+}
+.des-types__info-list ul {
+    margin: 12px 0 -4px 0;
+}
+.des-types__info-list .btn{
+    padding: 21px 55px;
+}
+.des-terms{
+    padding-top: 166px;
+}
+.des-terms__grid{
+    margin-top: 72px;
+}
+.faq{
+    background: #f7f7f7;
+    margin-top: 82px;
+    padding: 86px 0;
+}
+.faq h2{
+    font-size: 50px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: normal;
+}
+.faq .int-design__item{
+    background: #fff;
+    margin: 0 auto 30px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    border: 0;
+    padding: 46px 3px 26px 99px !important;
+}
+.faq .int-design__title:after {
+    right: 30px !important;
+}
+.faq .int-design__title{
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+.faq .int-design__title:before{
+    content: '';
+    position: absolute;
+    background: url("../img/vopr.png") 0 0 no-repeat;
+    width: 32px;
+    height: 32px;
+    left: -61px;
+    top: -5px;
+}
+.faq .vopros{
+    font-size: 18px;
+    color: #7d7d7d;
+    width: 86%;
+    letter-spacing: 0.79px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.faq .otvet{
+
+}
+.faq .otvet .zag{
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 1.2;
+    font-family: "RF Dewi Expanded", sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    padding-right: 80px;
+    cursor: pointer;
+}
+.faq .otvet .zag:before{
+    content: '';
+    position: absolute;
+    background: url("../img/otv.png") 0 0 no-repeat;
+    width: 32px;
+    height: 32px;
+    left: -61px;
+    top: -5px;
+}
+.faq .otvet p{
+    font-size: 18px;
+    color: #7d7d7d;
+    width: 92%;
+    letter-spacing: 0.79px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+@media(max-width: 1613px){
+    .project_uslugi .container,
+    .project_tips .container{
+        width: 92%;
+    }
+}
+@media(max-width: 1600px){
+    .service_super_heder .box .right .form{
+        margin: 6px 0 0 0;
+    }
+    .service_super_heder .box .right {
+        width: 44%;
+    }
+    .service_super_heder .box .right .form__thank{
+        right: 0;
+    }
+    .service_super_heder{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .service_super_heder .box .left .text{
+        width: 100%;
+    }
+    .kontrol-kachestva .spisok {
+        width: 100%;
+    }
+    .vibor-nas .spisok {
+        width: 100%;
+    }
+    .int-design__item {
+        max-width: 90%;
+        margin: 0 0 0 auto;
+    }
+    .project_tips .box{
+        width: 100%;
+    }
+    .nashi-priem .box{
+        width: 100%;
+    }
+    .material .text{
+        width: 100%;
+    }
+    .material .spisok{
+        width: 100%;
+    }
+    .material .spisok .item{
+        margin-right: 74px;
+    }
+}
+@media(max-width: 1499px){
+    .project_uslugi .container,
+    .project_tips .container{
+        width: 100%;
+    }
+    .service_super_heder .img{
+        height: 100%;
+    }
+    .service_super_heder .box .left .title{
+        font-size: 65px;
+    }
+    .service_super_heder .box .left .text{
+        width: 100%;
+        color: #fff;
+    }
+    .service_super_heder .box .right .form p{
+        width: 43%;
+        margin: 47px 0 0 0;
+    }
+    .int-design__item{
+        margin: 0 0 0 80px;
+    }
+    .int-design__title span {
+        left: -80px;
+    }
+    .faq h2 {
+        font-size: 44px;
+    }
+    .int-design__item form {
+        width: 100%;
+    }
+    .project_tips .box{
+        width: 100%;
+    }
+    .project_tips .box .item {
+        width: 32%;
+    }
+    .project_tips .box .item .bot a.link{
+        width: 35%;
+        padding: 0;
+    }
+    .project_tips .top-rice{
+        padding: 43px;
+    }
+    .project_tips .top-rice .box .left {
+        width: 31%;
+    }
+    .project_tips .top-rice .spisok ul li{
+        width: 49%;
+    }
+    .vibor-nas .spisok .item .text{
+        width: 80%;
+    }
+    .nashi-priem .box .right {
+        width: 55%;
+    }
+    .nashi-priem .box .left {
+        width: 43%;
+    }
+    .nashi-priem{
+        background-size: cover;
+    }
+    .nashi-priem .box .left .item .text{
+        width: 78%;
+    }
+    .material .spisok .item {
+        margin-right: 54px;
+    }
+}
+@media(max-width: 1124px){
+    .service_super_heder .box .left {
+        width: 100%;
+    }
+    .service_super_heder .box .left .title {
+        font-size: 60px;
+    }
+    .service_super_heder .box .right {
+        width: 100%;
+    }
+    .service_super_heder .box .right .form .input-container{
+        max-width: 100%;
+    }
+    .service_super_heder .box .right .form p {
+        width: auto;
+        margin: 63px 0 0 20px;
+        float: none;
+        display: inline-block;
+    }
+    .service_super_heder .box .right .form {
+        margin: 6px 0 0 0 !important;
+    }
+    .faq h2 {
+        font-size: 40px;
+    }
+    .project_tips {
+        padding-top: 50px;
+    }
+    .project_tips .title {
+        font-size: 35px;
+    }
+    .project_tips .box .item .zag {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .project_tips .box .item .bot a.btn {
+        letter-spacing: 0;
+    }
+    .project_tips .top-rice .bot a.btn{
+        letter-spacing: 0;
+    }
+    .project_tips .top-rice .bot a.link{
+        width: 36%;
+    }
+    .project_tips .top-rice .box .left {
+        width: 40%;
+    }
+    .project_tips .top-rice .spisok {
+        width: 55%;
+    }
+    .vibor-nas .spisok .item .text {
+        font-size: 18px;
+    }
+    .kontrol-kachestva .spisok .item .right .text {
+        font-size: 28px;
+    }
+    .kontrol-kachestva .spisok .item .icon {
+        font-size: 70px;
+    }
+    .int-design {
+        padding-top: 90px;
+    }
+    .nashi-priem .box .left .item .text {
+        font-size: 18px;
+    }
+    .nashi-priem .box .left {
+        width: 100%;
+    }
+    .nashi-priem .box .left .item .text {
+        width: 85%;
+    }
+    .nashi-priem .box .left .item{
+        margin-bottom: 20px;
+    }
+    .nashi-priem .box .right {
+        width: 100%;
+    }
+    .nashi-priem .box .right .form .input-container {
+        max-width: 100%;
+    }
+    .nashi-priem .box .right .form p {
+        width: auto;
+        margin: 63px 0 0 20px;
+        float: none;
+        display: inline-block;
+    }
+    .material .text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .material .spisok {
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .material .spisok .item {
+        margin-right: 0;
+        width: 28%;
+        margin-bottom: 25px;
+    }
+    .int-design__item .text {
+        padding: 40px 0 0 0;
+        margin-bottom: 60px;
+    }
+    .int-design__title {
+        padding-left: 0;
+    }
+    .int-design__item .zag{
+        padding: 0;
+    }
+    .int-design__item .box .item {
+        width: 33% !important;
+        margin-bottom: 25px;
+    }
+    .int-design__item .spisok .item .img {
+        margin: 5px 0 0 0 !important;
+    }
+    .int-design__item .spisok .item .right {
+        width: 84%;
+    }
+    .int-design__item .txt{
+        padding: 0;
+    }
+    .int-design__item .tables{
+        padding: 0;
+    }
+    .int-design__item .info{
+        width: 100%;
+    }
+    .int-design__item .text-big {
+        padding: 37px 0 0 0;
+    }
+    .int-design__item .infor{
+        width: 100%;
+    }
+    .int-design__item .txt-t{
+        padding: 0;
+    }
+    .nashi-priem h2 {
+        margin-bottom: 30px;
+    }
+    .nashi-priem{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width: 992px){
+    .service_super_heder .box .right .form p {
+        width: 68%;
+        margin: 0 0 0 20px;
+    }
+    .service_super_heder .box .left .title {
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .service_super_heder {
+        padding-top: 110px;
+    }
+    .service_super_heder .box .left .sub-title{
+        margin: 0;
+    }
+    .int-design__person-el:last-child {
+        margin-right: 0;
+    }
+    .int-design__person-el {
+        margin-left: 0;
+    }
+    .int-design__item {
+        margin: 0 0 0 70px;
+        padding: 35px 0;
+    }
+    .int-design__title span {
+        left: -70px;
+    }
+    .faq h2 {
+        font-size: 36px;
+    }
+    .faq .vopros {
+        font-size: 16px;
+    }
+    .faq .otvet p {
+        font-size: 16px;
+    }
+    .project_tips .box .item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .project_tips .top-rice {
+        padding: 20px;
+        margin-top: 0;
+    }
+    .project_tips .top-rice .box .left {
+        width: 100%;
+    }
+    .project_tips .top-rice .spisok {
+        width: 100%;
+        margin: 0;
+    }
+    .vibor-nas .spisok .item .text {
+        width: 70%;
+    }
+    .kontrol-kachestva .spisok .item .right .text {
+        font-size: 24px;
+        margin: 7px 0 7px 0;
+    }
+    .kontrol-kachestva .spisok .item .icon {
+        font-size: 50px;
+    }
+    .nashi-priem .box .left .item .text {
+        width: 80%;
+    }
+    .material {
+        padding-top: 60px;
+    }
+    .nashi-priem{
+        margin: 60px 0 0 0;
+    }
+    .kontrol-kachestva{
+        margin-top: 60px;
+    }
+    .material .spisok .item{
+        width: 50%;
+    }
+    .int-design__item .spisok .name {
+        font-size: 18px;
+    }
+    .int-design__item .spisok .box .li {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+    .int-design__item .spisok .item:nth-child(3) .box .li:last-child {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .int-design__item .spisok .item .right {
+        width: 80%;
+    }
+    .int-design__item .tables .item {
+        width: 32%;
+    }
+    .int-design__item .tables .item .block .name {
+        font-size: 12px;
+    }
+    .int-design__item .tables .item .block .price {
+        font-size: 14px;
+        height: 60px;
+    }
+    .int-design__item .tables .item .block .price .num {
+        font-size: 18px;
+    }
+    .int-design__item .tables .item ul li {
+        font-size: 14px;
+        padding: 0 0 0 15px;
+    }
+    .int-design__item .tables .item span {
+        font-size: 12px;
+    }
+    .int-design__item .info {
+        padding: 24px 33px 23px 100px;
+        background: url('../img/icon71.svg') 15px 50% no-repeat;
+        background-size: 70px;
+        font-size: 14px;
+    }
+    .int-design__item .text-big p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .int-design__item .infor + .txt {
+        font-size: 16px;
+    }
+}
+@media(max-width: 760px){
+    .service_super_heder .box .left .sub-title{
+        font-size: 20px;
+    }
+    .service_super_heder .box .left .title {
+        font-size: 36px;
+    }
+    .service_super_heder .box .left .text {
+        font-size: 16px;
+    }
+    .service_super_heder .box .left .text p {
+        margin-bottom: 15px;
+    }
+    .service_super_heder .box .right .form {
+        margin: 0;
+        padding: 30px;
+    }
+    .service_super_heder .box .right .form p {
+        width: 100%;
+        margin: 10px 0 0 0;
+        display: block;
+    }
+    .int-design__title span {
+        left: 0 !important;
+        top: 50% !important;
+    }
+    .int-design__item {
+        margin: 0;
+        max-width: 100%;
+    }
+    .int-design__info p {
+        margin-bottom: 15px;
+    }
+    .int-design__persons .int-des {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .int-design__info {
+        max-width: 100%;
+    }
+    .int-design__item .box .item {
+        width: 50% !important;
+    }
+    .int-design__item .spisok .item .right {
+        width: 75%;
+    }
+    .projects {
+        padding-top: 60px;
+    }
+    .des-types {
+        padding-top: 60px;
+    }
+    .des-terms {
+        padding-top: 60px;
+    }
+    .faq {
+        margin-top: 60px;
+        padding: 50px 0;
+    }
+    .faq h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .faq .int-design__item{
+        padding: 30px !important;
+    }
+    .faq .vopros {
+        width: 100%;
+    }
+    .int-design__title:after {
+        right: 0 !important;
+    }
+    .faq .int-design__title:before{
+        left: 0 !important;
+    }
+    .faq .otvet .zag{
+        padding-right: 0;
+        padding-left: 40px;
+    }
+    .faq .otvet .zag:before{
+        left: 0;
+    }
+    .faq .otvet p{
+        width: 100%;
+    }
+    .int-design__item form .zag {
+        font-size: 16px;
+    }
+    .int-design__info .ras{
+        margin-bottom: 0;
+    }
+    .int-design__item form {
+        margin-top: 40px;
+    }
+    .int-design__item form .input-container {
+        margin-bottom: 45px;
+    }
+    .project_tips .title {
+        font-size: 25px;
+    }
+    .project_uslugi .box .left .title{
+        font-size: 35px;
+    }
+    .project_uslugi .box .left{
+        padding-top: 25px;
+    }
+    .kontrol-kachestva .spisok .item .right{
+        width: 88%;
+    }
+    .kontrol-kachestva .spisok .item .right .mini-text {
+        font-size: 14px;
+    }
+    .kontrol-kachestva .spisok .item .right .text {
+        font-size: 16px;
+    }
+    .kontrol-kachestva .spisok .item .icon {
+        font-size: 32px;
+    }
+    .nashi-priem .box .left .item .text {
+        width: 75%;
+    }
+    .nashi-priem .box .right .form p {
+        margin: 20px 0 0 0;
+    }
+    .nashi-priem .box .right .form {
+        margin: 0;
+        padding: 30px;
+    }
+    .material .text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .int-design__item .spisok .box{
+        padding: 0 10px;
+    }
+    .int-design__item .spisok .name {
+        font-size: 16px;
+        width: 95%;
+    }
+}
+@media(max-width: 565px){
+    .service_super_heder .box .left .title {
+        line-height: 45px;
+        font-size: 29px;
+        margin: 15px 0;
+    }
+    .int-design__item .spisok .item .right {
+        width: 100%;
+    }
+    .int-design__item .spisok .item .img {
+        margin: 0 auto 15px auto !important;
+    }
+    .int-design__item .tables .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service_super_heder .box .left .text {
+        margin-top: 20px;
+    }
+    .service_super_heder .box .left .text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .projects__links-el {
+        padding: 20px 15px;
+    }
+    .projects__links-item p {
+        padding: 0;
+    }
+    .des-terms__grid {
+        margin-top: 30px;
+    }
+    .faq .int-design__title {
+        font-size: 14px;
+    }
+    .faq .vopros {
+        font-size: 14px;
+    }
+    .faq .otvet .zag {
+        font-size: 14px;
+    }
+    .faq .otvet p {
+        font-size: 14px;
+    }
+    .int-design__item form .input-container {
+        margin-bottom: 80px;
+    }
+    .project_tips .top-rice .spisok ul li {
+        width: 100%;
+    }
+    .vibor-nas .spisok .item .icon {
+        width: 100px;
+    }
+    .vibor-nas .spisok .item .text {
+        width: 70%;
+    }
+    .kontrol-kachestva {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .kontrol-kachestva .spisok .item .right {
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    .nashi-priem .box .left .item .text {
+        width: 65%;
+        font-size: 16px;
+    }
+    .nashi-priem {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .material .spisok .item {
+        width: 100%;
+    }
+    .material .spisok .item .img {
+        height: 100px;
+    }
+    .material .spisok .item{
+        margin-bottom: 40px;
+    }
+    .int-design__item .spisok .box .li {
+        width: 49%;
+    }
+}

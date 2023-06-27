@@ -1,0 +1,127 @@
+/* UI BEGIN
+
+a
+  text-decoration: none
+  letter-spacing: 0.5px
+  transition: all 0.25s $ease
+
+a[name]
+  display: inline-block
+  height: 0
+  opacity: 0
+  pointer-events: none
+  line-height: 0
+  font-size: 0
+
+ul
+  list-style: none
+  padding: 0
+  margin: 0
+
+p, h1, h2, h3, h4, h5, h6
+  margin: 0
+  padding: 0
+  letter-spacing: 1px
+
+h1, h2, h3, h4, h5, h6
+  letter-spacing: 3px
+
+// input
+//   -moz-appearance: none
+//   -webkit-appearance: none
+  
+
+.input-container
+  position: relative
+
+  label
+    left: 28px
+    top: 9px
+
+  .label
+    position: absolute
+    text-transform: uppercase
+    font-size: 14px
+    color: $fontColor
+    line-height: 1.25
+    font-weight: 300
+    padding: 0
+    left: 0
+    bottom: 20px
+    font-family: $default
+    letter-spacing: 2px
+    width: auto
+    pointer-events: none
+    transition: all $transitionSpeed $ease
+    z-index: 2
+
+    &.up
+      bottom: 98%
+
+
+  input
+    width: 100%
+    border: none
+    border-bottom: 1px solid $fontColor
+    outline: none
+    border-radius: 0
+    background: none
+    padding: 10px 0 15px
+    font-size: 24px
+    font-family: $dewi
+    text-transform: uppercase
+    line-height: 1.2
+    font-weight: 700
+    color: $fontColor
+    display: inline-block
+    transition: all $transitionSpeed $ease
+    -moz-appearance: none
+    -webkit-appearance: none
+
+    &::placeholder
+      color: #fontColor
+
+    &::-webkit-inner-spin-button, 
+    &::-webkit-outer-spin-button
+      -webkit-appearance: none
+      margin: 0
+
+    &::placeholder
+      color: transparent !important
+      opacity: 0
+
+    &:-ms-input-placeholder
+      color: transparent !important
+
+    &:focus + .label,
+    &:not(:placeholder-shown) + .label
+      bottom: 98%
+
+    // &[required] + .label::after
+    //   display: inline
+
+  &.has-error
+    input
+      border-color: #ff0000
+
++r($desktop)
+  .input-container
+
+    input
+      font-size: 24px
+    
++r($tablet)
+  h1, h2, h3, h4, h5, h6
+    letter-spacing: normal
+    
+  .input-container
+
+    .label
+      font-size: 12px
+      bottom: 15px
+
+    input
+      font-size: 18px
+      padding: 8px 0 12px
+
+/* UI END

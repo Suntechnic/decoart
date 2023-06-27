@@ -1,0 +1,133 @@
+.projects
+
+  &__tags
+    display: flex
+    padding-top: 60px
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    padding-bottom: 60px
+
+  &__tag-el
+    padding: 5px
+
+  &__tag
+    padding: 15px 30px
+    border-radius: 40px
+    border: 1px solid $blue
+    display: inline-block
+    color: $blue
+    font-size: 14px
+    text-transform: uppercase
+    letter-spacing: 1px
+    transition: all $transitionSpeed $ease
+    text-align: center
+
+    &:hover,
+    &.is-active
+      background: $blue
+      color: $white
+
+  &__links
+    // padding-top: 60px
+    display: flex
+    align-items: flex-start
+    justify-content: flex-start
+    flex-wrap: wrap
+    margin: 0 -50px
+    width: calc(100% + 100px)
+
+  &__links-el
+    padding: 25px 50px
+    width: 50%
+
+    &--w100
+      width: 100%
+      text-align: center
+
+  &__links-item
+    display: block
+
+    p
+      margin: 15px 0 0
+      font-size: 18px
+      color: $black
+      line-height: 1.3
+
+    &:hover
+      .image
+        transform: scale(1.05)
+
+  &__links-image
+    font-size: 0
+    overflow: hidden
+
+    .image
+      padding-bottom: 76%
+      transition: all $transitionSpeed $ease
+
+
++r($desktop)
+  .projects
+
+    &__tags
+      padding-top: 30px
+      padding-bottom: 50px
+
+    &__tag
+      padding: 15px 30px
+
+    &__links
+      // padding-top: 40px
+      margin: 0 -20px
+      width: calc(100% + 40px)
+
+    &__links-el
+      padding: 20px
+      width: 50%
+
+      &--w100
+        width: 100%
+
+    &__links-item
+
+      p
+        font-size: 16px
+
++r($tablet)
+  .projects
+
+    &__tags
+      padding-top: 25px
+      padding-bottom: 25px
+
+    &__tag-el
+      width: 100%
+    
+    &__tag
+      padding: 12px 25px
+      letter-spacing: 0.5px
+      width: 100%
+
+    &__links
+      padding: 0 0 20px
+      margin: 0 -20px
+      width: calc(100% + 40px)
+      border-bottom: 1px solid #e1e1e1
+
+    &__links-el
+      padding: 20px 0 10px
+      margin: 0
+      width: 100%
+
+    &__button
+      padding: 0 20px
+
+      .btn
+        width: 100%
+
+    &__links-item
+
+      p
+        padding: 0 20px
+        font-size: 16px

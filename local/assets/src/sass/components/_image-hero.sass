@@ -1,0 +1,146 @@
+.hero-image
+  position: relative
+  padding-bottom: 100px
+  min-height: 750px
+
+  &__image
+    position: absolute
+    right: 0
+    top: 0
+    height: 100%
+    width: auto
+    object-fit: contain
+    max-width: 50%
+    object-position: top right
+
+    &--company
+      top: 50%
+      transform: translateY(-50%)
+      object-position: center right
+
+  &:after
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    content: ''
+    background: linear-gradient(to right, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%)
+
+  .service
+    font-size: 14px
+    color: $blue
+    text-transform: uppercase
+    font-weight: 400
+    position: absolute
+    left: 10px
+    top: -15px
+
+  &__top
+    position: relative
+    z-index: 2
+    display: inline-block
+    padding-right: 80px
+
+  &__info
+    max-width: 650px
+    width: 75%
+    padding-top: 80px
+    padding-right: 80px
+    position: relative
+    z-index: 2
+
+    p
+      width: 100%
+      font-size: 20px
+      color: $grey
+      line-height: 1.8
+      margin-top: 20px
+      position: relative
+      z-index: 2
+
+  &__button
+    display: inline-block
+    margin-top: 50px
+
++r($wide-s)
+  .hero-image
+    padding-bottom: 50px
+    min-height: 600px
+
+    &__top
+      margin-top: 20px
+
+    &__info
+      max-width: 550px
+      width: 70%
+      padding-top: 30px
+
+      p
+        font-size: 18px
+        line-height: 1.7
+        margin-top: 15px
+
++r($desktop)
+  .hero-image
+    padding-bottom: 40px
+    min-height: 1px
+
+    &:after
+      background: rgba(255,255,255, 0.8)
+
+    &__top
+      margin-top: 20px
+      padding-right: 0
+
+    .service
+      left: 0
+
+    &__info
+      max-width: 100%
+      width: 100%
+      padding-top: 20px
+      padding-right: 0
+
+      p
+        font-size: 16px
+        line-height: 1.7
+        margin-top: 10px
+
++r($tablet)
+  .hero-image
+    padding-bottom: 0
+    min-height: 1px
+    padding-top: 0
+
+    &__image
+      position: static
+      width: 100%
+      max-width: 100%
+      height: auto
+      margin-top: -100px
+
+      &--company
+        top: 0
+        margin-top: -20px
+        transform: none
+        object-position: center right
+
+    &:after
+      background: rgba(255,255,255, 0.8)
+      display: none
+
+    &__top
+      margin-top: 25px
+
+    &__info
+      padding-top: 20px
+
+      p
+        font-size: 14px
+        line-height: 1.6
+        margin-top: 10px
+
+    &__button
+      margin-top: 20px
+      width: 100%

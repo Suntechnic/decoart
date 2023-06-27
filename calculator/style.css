@@ -1,0 +1,1099 @@
+.calculation{
+
+}
+.calculation .title{
+    font-size: 50px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: normal;
+}
+
+.calculation.page_calc .container{
+    position: relative;
+}
+.calculation.page_calc .container > p{
+    width: fit-content;
+    position: absolute;
+    bottom: 190px;
+}
+
+.calculation .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 49px;
+}
+.calculation .box .left{
+    width: 25.5%;
+    position: relative;
+    height: 100%;
+    margin-top: 100px;
+}
+.calculation .box .left .zag{
+    font-size: 14px;
+    color: #7d7d7d;
+    text-align: center;
+    position: absolute;
+    top: 82px;
+    left: -34px;
+    right: 0;
+    width: 44%;
+    margin: auto;
+    letter-spacing: 0.6px;
+}
+.calculation .box .left #range{
+    height: 380px !important;
+}
+.calculation .box .left .metr{
+    font-size: 24px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    position: absolute;
+    left: -20px;
+    right: 0;
+    margin: auto;
+    width: 45px;
+    bottom: 133px;
+}
+.calculation .box .left #range .rs-full .rs-tooltip,
+.calculation .box .left #range .rs-full .rs-tooltip input{
+    font-size: 60px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    border: none;
+    width: 46%;
+    height: 79px;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0 0 6px 0;
+    border-radius: 0;
+}
+.calculation .box .left #range .rs-full .rs-tooltip input{
+    border: none;
+}
+.calculation .box .left #range .rs-handle {
+    height: 50px !important;
+    width: 50px !important;
+    margin-left: -5px !important;
+    background-color: #00b8e4;
+    border: 16px solid #fff;
+    box-shadow: 0 0 19px rgb(0 0 0 / 15%);
+}
+.calculation .box .left #range .rs-border {
+    border: 0 solid #e8e9ec;
+    stroke-width: 0 !important;
+    stroke: #e8e9ec !important;
+}
+.calculation .box .left #range .rs-path{
+    stroke: #f4f6f9 !important;
+}
+.calculation .box .left #range .rs-range{
+    stroke: #00b8e4 !important;
+    stroke-width: 10px !important;
+}
+.calculation .box .left #range .rs-svg-container:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 10px 9px -10px rgb(0 0 0 / 15%) inset;
+    z-index: 10;
+    border-radius: 50%;
+}
+.calculation .box .left #range .rs-svg-container:after{
+    content: '';
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 5px 7px 9px -10px rgb(0 0 0 / 15%);
+    z-index: 10;
+    border-radius: 50%;
+}
+.calculation .box .left #range .rs-full .rs-bar{
+    z-index: 20 !important;
+}
+.calculation .box .left #range .rs-inner-container:before{
+    content: '';
+    background: #00b8e4;
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    border-radius: 25px;
+    top: 155px;
+    left: 16px;
+    z-index: 1;
+}
+.calculation .box .right{
+    width: 74.3%;
+}
+.calculation .box .right .tab{
+
+}
+.calculation .box .right .tab .tablinks{
+    font-size: 14px;
+    color: #00b8e4;
+    background: #fff;
+    border: 1px solid #00b8e4;
+    text-transform: uppercase;
+    padding: 14px 31px;
+    border-radius: 30px;
+    letter-spacing: 0.6px;
+    transition: all 0.5s;
+    margin-right: 7px;
+    min-width: 216px;
+    cursor: pointer;
+}
+.calculation .box .right .tab .tablinks.active{
+    background: #f4f6f9;
+    border: 1px solid #f4f6f9;
+}
+.calculation .box .right .tab .tablinks:last-child{
+    margin-right: 0;
+}
+.calculation .box .right .tabcontent{
+    display: none;
+}
+.calculation .box .right .tabcontent .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.calculation .box .right .item{
+    width: 30.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calculation .box .right .item .top{
+    height: 100%;
+}
+.calculation .box .right .item .panel-title{
+    background: #00b8e4;
+    color: #fff;
+    text-align: center;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculation .box .right .item .price{
+    background: #f4f6f9;
+    text-align: center;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-size: 24px;
+    padding: 19px 0;
+}
+.calculation .box .right .item .price span{
+    font-size: 18px;
+}
+.calculation .box .right .item .txt{
+    font-size: 14px;
+    color: #7d7d7d;
+    padding: 15px 20px;
+    letter-spacing: 0.5px;
+}
+.calculation .box .right .item .txt.non{
+    display: block;
+}
+.calculation .box .right .item .txt span{
+    margin-bottom: 13px;
+    display: block;
+}
+.calculation .box .right .item .txt ul + span{
+    width: 80%;
+    margin: 34px 0 0 17px;
+    height: 34px;
+}
+.calculation .box .right #plan1 .item:nth-child(1) .txt ul + span{
+    margin-top: 70px;
+}
+.calculation .box .right #plan1 .item:nth-child(3) .txt ul + span{
+    margin-top: 100px;
+}
+.calculation .box .right #plan2 .item:nth-child(1) .txt ul + span{
+    margin-top: 135px;
+}
+.calculation .box .right #plan2 .item:nth-child(3) .txt ul + span{
+    margin-top: 265px;
+}
+.calculation .box .right .item .txt ul li{
+    padding: 0 0 0 26px;
+    position: relative;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    height: 0;
+}
+.calculation .box .right .item .txt ul li:nth-child(1),
+.calculation .box .right .item .txt ul li:nth-child(2),
+.calculation .box .right .item .txt ul li:nth-child(3),
+.calculation .box .right .item .txt ul li:nth-child(4),
+.calculation .box .right .item .txt ul li:nth-child(5),
+.calculation .box .right .item .txt ul li:nth-child(6),
+.calculation .box .right .item .txt ul li:nth-child(7),
+.calculation .box .right .item .txt ul li:nth-child(8),
+.calculation .box .right .item .txt ul li:nth-child(9),
+.calculation .box .right .item .txt ul li:nth-child(10),
+.calculation .box .right .item .txt ul li:nth-child(11),
+.calculation .box .right .item .txt ul li:nth-child(12),
+.calculation .box .right .item .txt ul li:nth-child(13),
+.calculation .box .right .item .txt ul li:nth-child(14),
+.calculation .box .right .item .txt ul li:nth-child(15),
+.calculation .box .right .item .txt ul li:nth-child(16),
+.calculation .box .right .item .txt ul li:nth-child(17),
+.calculation .box .right .item .txt ul li:nth-child(18),
+.calculation .box .right .item .txt ul.hide li {
+    height: auto;
+    margin-bottom: 16px !important;
+}
+.calculation .box .right .item .txt ul li:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    border: 3px solid transparent;
+    border-left: 5px solid #00b8e4;
+}
+.calculation .box .right .item .txt a{
+    font-size: 14px;
+    color: #00b8e4;
+    text-decoration: none;
+    border-bottom: 1px dashed #00b8e4;
+    margin: 0 0 0 31px;
+    display: inline-block;
+    letter-spacing: 1.2px;
+}
+.calculation .box .right .item .txt a:hover{
+    border-bottom: 1px dashed transparent;
+}
+.calculation .box .right .item .itog{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 18px;
+    color: #000000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    border-top: 1px solid #e1e1e1;
+    padding: 21px 0;
+}
+.calculation .box .right .item .itog input{
+    font-size: 24px;
+    color: #000000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: default;
+    pointer-events: none;
+}
+.calculation .box .right .item .bot{
+    margin: 10px auto 0 auto;
+    width: fit-content;
+}
+.calculation .box .right .item .pdf{
+    margin: 15px auto 0 auto;
+}
+.calculation .box .right .item .pdf a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #7d7d7d;
+    display: block;
+    text-align: center;
+}
+.calculation .box .right .item .pdf a:hover{
+    text-decoration: none;
+}
+.calculation.page_calc{
+    padding-top: 136px;
+}
+.calculation.page_calc .sub-title{
+    font-size: 14px;
+    color: #00b9e5;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: -2px;
+}
+.calculation.page_calc .title{
+    font-size: 60px;
+    margin: 0 0 0 -5px;
+    border: none;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.calculation.page_calc .box{
+    margin-top: 40px;
+}
+.calculation.page_calc .box .right .tab .tablinks.active {
+    background: #01b8e4;
+    color: #fff;
+}
+.calculation.page_calc .box .right .tabcontent .box {
+    margin-top: 50px;
+}
+.calculation.page_calc .box .right #plan1 .item:nth-child(1) .txt ul + span {
+    margin-top: 62px;
+}
+.calculation.page_calc .box .right .item .txt ul + span {
+    margin: 26px 0 0 17px;
+}
+.calculation.page_calc .box .right #plan1 .item:nth-child(3) .txt ul + span {
+    margin-top: 92px;
+}
+.calculation.page_calc .box .right .item .txt{
+    padding: 15px 20px 6px 20px;
+}
+.calculation.page_calc .btn{
+    padding: 21px 64px;
+}
+.info-table{
+    margin-top: 120px;
+}
+.info-table .zag-table{
+    background: #00b8e4;
+    color: #fff;
+    text-align: center;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-table .text-table{
+    font-size: 14px;
+    color: #7d7d7d;
+    padding: 16px 0;
+    letter-spacing: 0.6px;
+}
+.info-table .txt-table{
+
+}
+.info-table .txt-table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.info-table .txt-table table td{
+    font-size: 14px;
+    color: #7d7d7d;
+    border-top: 1px solid #e1e1e1;
+    padding: 16px 0;
+}
+.info-table .txt-table table td:last-child{
+    text-align: center;
+    width: 269px;
+}
+.info-table .txt-table table.border-table td[colspan="2"]{
+    background: #f4f6f9;
+    text-align: center;
+    padding: 16px 0;
+    letter-spacing: 0.8px;
+    border-right: 0 !important;
+    font-weight: 700;
+}
+.info-table .txt-table table.border-table td[rowspan="6"],
+.info-table .txt-table table.border-table td[rowspan="3"],
+.info-table .txt-table table.border-table td[rowspan="4"],
+.info-table .txt-table table.border-table td[rowspan="2"],
+.info-table .txt-table table.border-table td[rowspan="8"]{
+    text-align: left;
+    width: 341px;
+}
+.info-table .txt-table table.border-table td:first-child,
+.info-table .txt-table table.border-table td[rowspan="3"] + td,
+.info-table .txt-table table.border-table tr:last-child td:first-child + td,
+.info-table .txt-table table.border-table td[rowspan="4"] + td,
+.info-table .txt-table table.border-table td[rowspan="2"] + td{
+    border-right: 1px solid #e1e1e1;
+}
+.info-table .txt-table table.border-table td{
+    text-align: center;
+    padding: 14px 0;
+}
+.info-table .txt-table table.border-table tr:last-child td:first-child{
+    text-align: left;
+}
+.info-table .txt-table table.border-table.no-last tr:last-child td:first-child{
+    text-align: center;
+}
+.info-table .txt-table table.border-table.no-last tr:last-child td:first-child + td{
+    border-right: 0;
+}
+.info-table .txt-table table.border-table.one td:first-child{
+    width: 341px;
+}
+.info-table .txt-table table.border-table.one td:last-child{
+    text-align: right;
+    padding-right: 70px;
+    width: 268px;
+}
+.info-table .txt-table table.border-table.blob td:first-child{
+    text-align: left;
+}
+.info-table .txt-table table.border-table.blob tr:last-child td:first-child + td{
+    border-right: 0;
+}
+.info-table .txt-table table.border-table.blob td:last-child{
+    width: 700px;
+}
+.info-table .txt-table + .text-table{
+    border-top: 1px solid #e1e1e1;
+}
+.info-table .txt-table:last-child{
+    border-bottom: 1px solid #e1e1e1;
+}
+.info-table .txt-table table td b{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+.info-table .txt-table table td i{
+    font-style: normal;
+    font-weight: 700;
+}
+.calculation.page_calc .box .right #plan2 .item .txt ul + span {
+    margin: 23px 0 11px 17px;
+}
+.calculation.page_calc .box .right #plan2 .item:nth-child(1) .txt ul + span {
+    margin-top: 89px;
+}
+.calculation.page_calc .box .right #plan2 .item:nth-child(3) .txt ul + span {
+    margin-top: 190px;
+}
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(1),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(2),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(3),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(4),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(5),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(6),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(7),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(8),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(9),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(10),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(11),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(12),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(13),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(14),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(15),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(16),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(17),
+.calculation.page_calc .box .right #plan2 .item .txt ul li:nth-child(18),
+.calculation.page_calc .box .right #plan2 .item .txt ul.hide li {
+    height: auto;
+    margin-bottom: 7px !important;
+}
+.form-price{
+    margin-top: 126px;
+}
+.form-price .zag-form{
+    font-size: 40px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 13px;
+    margin-bottom: 114px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.5px;
+}
+.form-price .sub-form{
+    font-size: 24px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 14px;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.3px;
+}
+.calculation.page_calc .box .right .tabcontent .form-price .box{
+    margin: 0 0 114px 0;
+    align-items: flex-end;
+}
+.calculation .box .right .item .txt span span{
+    display: inline-block;
+}
+.form-price .box .in{
+    width: 30.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.form-price .box .in label{
+    font-size: 14px;
+    color: #7d7d7d;
+    line-height: 17px;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 4px;
+}
+.form-price .box .in input{
+    font-size: 14px;
+    font-weight: 300;
+    color: #252525;
+    border: none;
+    border-bottom: 1px solid #252525;
+    padding: 13px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.form-price .box .in input::placeholder{
+    color: transparent;
+}
+.form-price .box .in.no-label input::placeholder{
+    color: #252525;
+}
+.form-price .box .in .label{
+    font-size: 14px;
+    font-weight: 300;
+    color: #252525;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 14px;
+    transition: all 0.5s;
+    pointer-events: none;
+}
+.form-price .box .in input:focus + .label,
+.form-price .box .in input:not(:placeholder-shown) + .label{
+    bottom: 98%;
+}
+.form-price .box .in.in-bold input{
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 7px 0;
+    text-transform: none;
+}
+.form-price .box .in .select{
+    position: relative;
+}
+.form-price .box .in select,
+.form-price .box .in .new-select{
+    font-size: 14px;
+    font-weight: 300;
+    color: #252525;
+    border: none;
+    border-bottom: 1px solid #252525;
+    padding: 18px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('/local/assets/dist/img/arrow2.svg');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.form-price .box .in .new-select.on{
+    background: #fff url(/local/assets/dist/img/arrow2.svg) 94% 50% no-repeat !important;
+    box-shadow: 0 -3px 10px rgb(0 0 0 / 15%) !important;
+    background-size: 15px !important;
+    z-index: 100;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    padding: 18px 20px;
+}
+.form-price .box .in .new-select__list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 27px rgb(0 0 0 / 15%);
+    letter-spacing: 1px;
+    z-index: 10;
+    cursor: pointer;
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-size: 24px;
+}
+.form-price .box .in .new-select__list .new-select__item{
+    padding: 10px 20px;
+}
+.form-price .box .in .new-select__list .new-select__item:hover{
+    background: #f4f6f9;
+}
+.form-price .box .in .chek{
+    margin: 6px 0 15px 0;
+}
+.form-price .box .in .chek:last-child{
+    margin-bottom: 0;
+}
+.form-price .box .in .chek .checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+}
+.form-price .box .in .chek .checkbox + label {
+    position: relative;
+    padding: 0 0 0 32px;
+    cursor: pointer;
+    color: #252525;
+    text-transform: uppercase;
+}
+.form-price .box .in .chek .checkbox + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 21px;
+    height: 21px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    transition: .2s;
+}
+.form-price .box .in .chek .checkbox + label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 3px;
+    width: 17px;
+    height: 12px;
+    background: transparent;
+    transition: .2s;
+}
+.form-price .box .in .chek .checkbox:checked + label:after {
+    background: url('/local/assets/dist/img/check.svg') 0 0 no-repeat;
+}
+.form-price .btn{
+    margin: 0 auto;
+    display: block;
+}
+.calculation.page_calc .box .right .tabcontent .form-price .box:nth-last-child(2){
+    margin-bottom: 49px;
+}
+.calculation.page_calc .box .right .tabcontent .form-price .box:nth-last-child(3){
+    margin-bottom: 88px;
+}
+.calculation.page_calc .itog-bot p{
+    font-size: 16px;
+    color: #7d7d7d;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+.calculation .box .right .item .itog-bot .price{
+    font-size: 24px;
+    color: #000000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.3px;
+    padding: 8px 0;
+    background: none;
+}
+.calculation.page_calc .box .text{
+    width: 100%;
+    font-size: 16px;
+    color: #7d7d7d;
+    letter-spacing: -0.3px;
+    margin-top: 20px;
+}
+.title-table{
+    font-size: 40px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 13px;
+    margin-top: 160px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.5px;
+}
+.info-table.accordion{
+    margin: 0;
+}
+.info-table .accordion__item:not(.accordion__item_show) .accordion__body {
+    display: none;
+}
+.info-table .zag-table.accordion__header{
+    cursor: pointer;
+    position: relative;
+}
+.info-table .zag-table.accordion__header::after {
+    position: absolute;
+    right: 26px;
+    width: 32px;
+    height: 17px;
+    background-image: url('data:image/png;base64,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');
+    background-repeat: no-repeat;
+    content: "";
+    transition: all 0.2s;
+    transform: rotate(180deg);
+}
+.info-table .accordion__item_show .zag-table.accordion__header::after{
+    transform: rotate(0deg);
+}
+.info-table.accordion .text-table{
+    background: #f4f6f9;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+}
+.info-table.accordion .txt-table table td:last-child{
+    width: auto;
+    text-align: right;
+}
+.info-table.accordion .txt-table p{
+    font-size: 14px;
+    color: #7d7d7d;
+    margin-top: 20px;
+}
+.info-table.accordion .accordion__item:last-child .txt-table{
+    border: none;
+}
+.info-table.accordion + .btn{
+    margin: 50px auto 0 auto;
+    display: block;
+}
+@media(max-width: 1499px){
+    .calculation .box .left {
+        width: 330px;
+    }
+    .calculation .box .left .metr,
+    .calculation .box .left .zag{
+        left: 0;
+    }
+    .calculation .box .right {
+        width: 65%;
+    }
+    .calculation .box .right .tab .tablinks{
+        min-width: initial;
+        font-size: 12px;
+        padding: 10px 15px;
+        line-height: 15px;
+        letter-spacing: 0;
+        margin-right: 2px;
+    }
+    .calculation .box .right .tabcontent .box{
+        margin-top: 20px;
+    }
+    .calculation .box .right .item {
+        width: 32%;
+    }
+    .calculation .box .right .item .panel-title{
+        font-size: 16px;
+    }
+    .calculation .box .right .item .price{
+        font-size: 16px;
+    }
+    .calculation .box .right .item .txt{
+        padding: 15px 0;
+        letter-spacing: 0;
+    }
+    .calculation .box .right .item .txt ul + span {
+        margin: 35px 0 0 0;
+        width: 100%;
+    }
+    .calculation .box .right .item .itog input {
+        font-size: 20px;
+    }
+    .calculation .box .right .item .price span {
+        font-size: 14px;
+    }
+    .calculation .title{
+        font-size: 44px;
+    }
+    .calculation .box .right #plan1 .item:nth-child(1) .txt ul + span {
+        margin-top: 54px;
+    }
+    .calculation.page_calc .title {
+        font-size: 44px;
+        margin: 0;
+    }
+    .info-table .txt-table table td:last-child{
+        width: 145px;
+    }
+    .info-table .txt-table table.border-table td[rowspan="6"],
+    .info-table .txt-table table.border-table td[rowspan="3"],
+    .info-table .txt-table table.border-table td[rowspan="4"],
+    .info-table .txt-table table.border-table td[rowspan="2"],
+    .info-table .txt-table table.border-table td[rowspan="8"]{
+        width: auto;
+    }
+    .info-table .txt-table table.border-table.one td:last-child {
+        text-align: center;
+        padding-right: 0;
+        width: 145px;
+    }
+    .info-table .txt-table table.border-table.one td:first-child {
+        width: 295px;
+    }
+    .info-table .txt-table table.border-table.blob td:last-child {
+        width: 370px;
+        padding: 14px;
+    }
+    .info-table .txt-table table td b br{
+        display: none;
+    }
+    .info-table .txt-table table td b {
+        font-size: 16px;
+    }
+    .form-price .zag-form {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .form-price .sub-form {
+        font-size: 20px;
+    }
+    .form-price .box .in {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .form-price {
+        margin-top: 60px;
+    }
+    .calculation.page_calc .box .right .tabcontent .form-price .box,
+    .calculation.page_calc .box .right .tabcontent .form-price .box:nth-last-child(2),
+    .calculation.page_calc .box .right .tabcontent .form-price .box:nth-last-child(3){
+        margin: 0 0 40px 0;
+    }
+    .calculation .box .right .item .itog-bot .price{
+        padding: 12px 0;
+    }
+    .calculation.page_calc .itog-bot p {
+        font-size: 13px;
+    }
+    .title-table{
+        font-size: 35px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 1124px){
+    .calculation .box .left {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .calculation .box .right {
+        width: 100%;
+    }
+    .calculation .title{
+        font-size: 40px;
+    }
+    .calculation .box .left .zag{
+        left: 0;
+    }
+    .calculation .box .left .metr{
+        left: 0;
+    }
+    .calculation .box .right #plan1 .item:nth-child(3) .txt ul + span {
+        margin-top: 84px;
+    }
+    .calculation.page_calc .title {
+        font-size: 40px;
+    }
+    .info-table .txt-table table.border-table.one td:first-child {
+        width: 350px;
+    }
+    .info-table .txt-table table.border-table.blob td:last-child {
+        width: 543px;
+    }
+    .info-table .txt-table table td:last-child {
+        width: 269px;
+    }
+    .info-table .txt-table table.border-table.one td:last-child{
+        width: 269px;
+    }
+    .calculation.page_calc .container > p{
+        display: none;
+
+    }
+}
+@media(max-width: 992px){
+    .calculation .title{
+        font-size: 36px;
+    }
+    .calculation .box .right #plan1 .item:nth-child(3) .txt ul + span {
+        margin-top: 101px;
+    }
+    .calculation .box .right #plan2 .item:nth-child(3) .txt ul + span {
+        margin-top: 250px;
+    }
+    .calculation .box .right #plan2 .item:nth-child(1) .txt ul + span {
+        margin-top: 121px;
+    }
+    .calculation.page_calc .title {
+        font-size: 36px;
+    }
+    .info-table .txt-table table td:last-child {
+        width: 200px;
+    }
+    .info-table .txt-table table.border-table.one td:last-child {
+        width: 200px;
+    }
+    .info-table .txt-table table.border-table.one td:first-child {
+        width: 275px;
+    }
+    .info-table .txt-table table.border-table.blob td:last-child {
+        width: 415px;
+    }
+    .info-table .zag-table{
+        font-size: 16px;
+    }
+    .form-price .zag-form {
+        font-size: 30px;
+    }
+    .form-price .box .in.in-bold input{
+        font-size: 20px;
+    }
+    .calculation .box .right .item .itog-bot .price {
+        padding: 7px 0;
+    }
+    .title-table {
+        font-size: 30px;
+    }
+    .info-table.accordion .text-table{
+        font-size: 16px;
+    }
+    .form-price .box .in .label {
+        font-size: 12px;
+    }
+}
+@media(max-width: 760px){
+    .calculation .title{
+        font-size: 24px;
+    }
+    .calculation .box .right .tab .tablinks{
+        margin-bottom: 10px;
+    }
+    .calculation .box .right .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .calculation .box .right .item .txt ul + span {
+        margin: 35px 0 0 0 !important;
+        height: auto;
+    }
+    .info-table {
+        margin-top: 50px;
+    }
+    .calculation.page_calc .box .right .tabcontent .box {
+        margin-top: 20px;
+    }
+    .info-table .txt-table table.border-table.one td:last-child {
+        width: 130px;
+    }
+    .info-table .txt-table table td:last-child {
+        width: 130px;
+    }
+    .info-table .txt-table table.border-table.one td:first-child {
+        width: 225px;
+    }
+    .info-table .txt-table table.border-table.blob td:last-child {
+        width: 305px;
+    }
+    .form-price .sub-form {
+        font-size: 18px;
+    }
+    .form-price .zag-form {
+        font-size: 25px;
+    }
+    .form-price .box .in input {
+        font-size: 12px;
+    }
+    .form-price .box .in.in-bold input {
+        font-size: 16px;
+    }
+    .form-price .box .in select {
+        font-size: 12px;
+    }
+    .form-price .box .in label {
+        font-size: 12px;
+    }
+    .title-table {
+        font-size: 20px;
+    }
+}
+@media(max-width: 569px){
+    .info-table .txt-table table td b {
+        font-size: 14px;
+    }
+    .info-table .txt-table table td:last-child {
+        width: auto;
+        white-space: nowrap;
+        padding: 14px 10px;
+    }
+    .info-table .txt-table table.border-table.one td:last-child {
+        width: auto;
+        padding: 14px 10px;
+    }
+    .info-table .txt-table table.border-table.one td:first-child {
+        width: auto;
+    }
+    .info-table .txt-table table.border-table.blob td:last-child {
+        width: auto;
+        white-space: normal;
+        padding: 14px 10px;
+        font-size: 12px;
+    }
+    .info-table .zag-table {
+        font-size: 14px;
+    }
+    .form-price .zag-form {
+        font-size: 19px;
+    }
+    .form-price .sub-form {
+        font-size: 14px;
+    }
+    .info-table .zag-table.accordion__header{
+        padding: 0 30px;
+    }
+    .info-table .zag-table.accordion__header::after{
+        background-size: 15px;
+        right: 15px;
+        width: 15px;
+    }
+    .info-table.accordion .text-table {
+        font-size: 12px;
+    }
+    .info-table .txt-table table.border-table td span{
+	display: block;
+    }
+}

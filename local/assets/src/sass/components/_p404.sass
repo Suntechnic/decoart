@@ -1,0 +1,63 @@
+.page404
+  height: 100vh
+  max-height: 1000px
+  padding: 0
+  display: flex
+  align-items: center
+
+  &__image
+    width: 50%
+    height: 100%
+
+    img
+      height: 100%
+      width: auto
+
+  &__info
+    width: 50%
+    padding: 100px 50px
+
+    p
+      font-size: 16px
+      color: $grey
+      margin-top: 60px
+
+    a
+      color: $blue
+
++r($hd)
+  .page404
+    height: auto
+    max-height: 10000px
+
+    &__image
+      width: 50%
+      height: auto
+
+      img
+        width: 100%
+        height: auto
+
+    &__info
+      width: 50%
+      padding: 100px 50px 100px 0
+
++r($tablet)
+  .page404
+    height: auto
+    flex-direction: column
+
+    &__image
+      width: 100%
+      height: auto
+
+      img
+        width: 60%
+
+    &__info
+      z-index: 2
+      width: 100%
+      padding: 20px 20px 0
+
+      p
+        margin-top: 25px

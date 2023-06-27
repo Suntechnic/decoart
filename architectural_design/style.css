@@ -1,0 +1,629 @@
+.project_uslugi{
+    padding-top: 68px;
+}
+.project_uslugi .container{
+    width: 85%;
+}
+.project_uslugi .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project_uslugi .box .left{
+    width: 48%;
+    padding-top: 68px;
+}
+.project_uslugi .box .left .sub-title{
+    font-size: 14px;
+    color: #00b9e5;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: -2px;
+}
+.project_uslugi .box .left .title{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    margin: 0 0 100px 0;
+    letter-spacing: 1px;
+}
+.project_uslugi .text{
+    font-size: 20px;
+    line-height: 36px;
+    color: #7d7d7d;
+    padding: 0 0 0 99px;
+    width: 92%;
+}
+.project_uslugi .text p{
+    margin-bottom: 16px;
+    letter-spacing: 0.8px;
+}
+.project_uslugi .text li{
+    margin-bottom: 36px;
+}
+.project_uslugi .text li:last-child{
+    margin-bottom: 28px;
+}
+.project_uslugi .text li p{
+    padding-left: 34px;
+}
+.project_uslugi .box .right{
+    width: 65%;
+    margin-right: -18.5%;
+    margin-bottom: 44px;
+}
+.project_uslugi .box .right img{
+    width: 100%;
+}
+.project_style{
+    padding-top: 100px;
+}
+.project_style .title{
+    font-size: 40px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 13px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.5px;
+}
+.project_style .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 85.7%;
+}
+.project_style .box .item{
+    width: 30.7%;
+}
+.project_style .box .item .img{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.project_style .box .item .img img{
+    width: 100%;
+}
+.project_style .box .item .zag{
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+.project_itap{
+    padding-top: 122px;
+}
+.project_itap .title{
+    font-size: 40px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 13px;
+    margin-bottom: 91px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.5px;
+}
+.project_itap .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 86%;
+    margin: 0 auto;
+    padding: 0 10% 49px 0;
+}
+.project_itap .box .item{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 34px;
+}
+.project_itap .box .item .col{
+    font-size: 20px;
+    color: #000;
+    font-family: "RF Dewi Expanded", sans-serif;
+    margin: -12px 0 0 0;
+}
+.project_itap .box .item .img{
+
+}
+.project_itap .box .item .img img{
+
+}
+.project_itap .box .item .zag{
+    font-size: 20px;
+    color: #7d7d7d;
+    width: 60%;
+    margin: -7px 0 0 0;
+    letter-spacing: 0.8px;
+    line-height: 25px;
+}
+.project_itap .box .item:nth-child(1){
+    order: 1;
+}
+.project_itap .box .item:nth-child(2){
+    order: 3;
+}
+.project_itap .box .item:nth-child(3){
+    order: 5;
+}
+.project_itap .box .item:nth-child(4){
+    order: 7;
+}
+.project_itap .box .item:nth-child(5){
+    order: 9;
+}
+.project_itap .box .item:nth-child(6){
+    order: 11;
+}
+.project_itap .box .item:nth-child(7){
+    order: 2;
+}
+.project_itap .box .item:nth-child(8){
+    order: 4;
+}
+.project_itap .box .item:nth-child(9){
+    order: 6;
+}
+.project_itap .box .item:nth-child(10){
+    order: 8;
+}
+.project_itap .box .item:nth-child(11){
+    order: 10;
+}
+.project_itap .box .item:nth-child(12){
+    order: 12;
+}
+.project_itap .box + .box .img{
+    width: 48%;
+}
+.project_itap .box + .box .img img{
+    width: 100%;
+}
+.project_itap .box .right{
+    width: 43.5%;
+    margin: 79px 0 0 0;
+}
+.project_itap .box .right .zag{
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "RF Dewi Expanded", sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 51px;
+}
+.project_itap .box .right ul{
+
+}
+.project_itap .box .right ul li{
+    font-size: 20px;
+    color: #7d7d7d;
+    padding: 0 0 0 36px;
+    letter-spacing: 0.8px;
+    margin-bottom: 48px;
+    background: url('../img/li.png') 2px 5px no-repeat;
+}
+.project_zadanie{
+    padding-top: 75px;
+}
+.project_zadanie .title{
+    font-size: 40px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 13px;
+    margin-bottom: 114px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.5px;
+}
+.project_zadanie .form-price{
+    width: 86%;
+    margin: 0 auto;
+    padding: 0 11.5% 0 0;
+}
+.project_zadanie .form-price .box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 114px 0;
+}
+.project_zadanie .form-price .sub-form{
+    font-size: 24px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 14px;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.3px;
+}
+.project_zadanie .form-price .box .in{
+    width: 30.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project_zadanie .form-price .box .in label{
+    font-size: 14px;
+    color: #7d7d7d;
+    line-height: 17px;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 4px;
+}
+.project_zadanie .form-price .box .in input{
+    font-size: 14px;
+    font-weight: 300;
+    color: #252525;
+    border: none;
+    border-bottom: 1px solid #252525;
+    padding: 13px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.project_zadanie .form-price .box .in input::placeholder{
+    color: #252525;
+}
+.project_zadanie .form-price .box .in.in-bold input{
+    font-family: "RF Dewi Expanded", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 7px 0;
+    text-transform: none;
+}
+.project_zadanie .form-price .box .in select{
+    font-size: 14px;
+    font-weight: 300;
+    color: #252525;
+    border: none;
+    border-bottom: 1px solid #252525;
+    padding: 18px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('../img/arrow2.svg');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    cursor: pointer;
+}
+.project_zadanie .form-price .box .in .chek{
+    margin: 6px 0 15px 0;
+}
+.project_zadanie .form-price .box .in .chek:last-child{
+    margin-bottom: 0;
+}
+.project_zadanie .form-price .box .in .chek .checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+}
+.project_zadanie .form-price .box .in .chek .checkbox + label {
+    position: relative;
+    padding: 0 0 0 32px;
+    cursor: pointer;
+    color: #252525;
+    text-transform: uppercase;
+}
+.project_zadanie .form-price .box .in .chek .checkbox + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 21px;
+    height: 21px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    transition: .2s;
+}
+.project_zadanie .form-price .box .in .chek .checkbox + label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 3px;
+    width: 17px;
+    height: 12px;
+    background: transparent;
+    transition: .2s;
+}
+.project_zadanie .form-price .box .in .chek .checkbox:checked + label:after {
+    background: url('../img/check.svg') 0 0 no-repeat;
+}
+.project_zadanie .form-price .btn{
+    margin: 0 auto;
+    display: block;
+    letter-spacing: 1.2px;
+    padding: 21px 62px;
+}
+.project_zadanie .form-price .box:nth-child(8){
+    margin-bottom: 88px;
+}
+.project_zadanie .form-price .box:nth-child(9){
+    margin-bottom: 49px;
+}
+.project_dom{
+    padding-top: 127px;
+}
+.project_dom .title{
+    font-size: 40px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 13px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.5px;
+}
+.project_dom .box{
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project_dom .box .item{
+    width: 45.9%;
+    margin-bottom: 23px;
+}
+.project_dom .box .item a{
+    display: block;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 0.35px;
+}
+.project_dom .box .item .img{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.project_dom .box .item .img img{
+    width: 100%;
+}
+.project_dom .box .item .zag{
+
+}
+.project_dom .btn{
+    margin: 51px auto 0 auto;
+    display: block;
+    width: fit-content;
+    letter-spacing: 1.4px;
+    padding: 21px 39px;
+}
+@media(max-width: 1613px){
+    .project_uslugi .container{
+        width: 92%;
+    }
+    .project_zadanie .form-price .sub-form {
+        font-size: 20px;
+    }
+    .project_zadanie .form-price .box .in {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .project_zadanie .form-price {
+        margin-top: 60px;
+    }
+}
+@media(max-width: 1499px){
+    .project_uslugi .container{
+        width: 100%;
+    }
+    .project_uslugi .box .left .title{
+        margin: 0 0 50px 0;
+        font-size: 45px;
+    }
+    .project_uslugi .text{
+        padding: 0;
+        font-size: 18px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .project_uslugi .text p {
+        margin-bottom: 15px;
+    }
+    .project_uslugi .box .left{
+        padding-top: 25px;
+    }
+    .project_style .box{
+        width: 100%;
+    }
+    .project_itap .box{
+        width: 100%;
+        padding: 0 0 49px 0;
+    }
+    .project_zadanie .form-price {
+        width: 100%;
+        padding: 0;
+    }
+    .project_dom .box {
+        width: 100%;
+    }
+}
+@media(max-width: 1124px){
+    .project_uslugi .box .left {
+        width: 100%;
+    }
+    .project_uslugi .box .left .title {
+        margin: 0 0 30px 0;
+        font-size: 40px;
+    }
+    .project_uslugi .text {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .project_uslugi .box .right {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .project_itap .box .item .zag{
+        width: 70%;
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .project_style .box .item .zag {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .project_itap .box .right ul li{
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .project_itap .box .right .zag {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .project_dom .box .item a {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .project_style .title,
+    .project_itap .title,
+    .project_zadanie .title,
+    .project_dom .title{
+        font-size: 35px;
+    }
+}
+@media(max-width: 992px){
+    .project_zadanie .form-price .box .in.in-bold input{
+        font-size: 20px;
+    }
+    .project_style .title,
+    .project_itap .title,
+    .project_zadanie .title,
+    .project_dom .title {
+        font-size: 29px;
+    }
+    .project_itap .box .item {
+        width: 100%;
+    }
+    .project_itap .box + .box .img {
+        width: 100%;
+    }
+    .project_itap .box .right {
+        width: 100%;
+        margin: 0;
+    }
+    .project_zadanie {
+        padding-top: 0;
+    }
+}
+@media(max-width: 760px){
+    .project_zadanie .form-price .sub-form {
+        font-size: 18px;
+    }
+    .project_zadanie .form-price .box .in input {
+        font-size: 12px;
+    }
+    .project_zadanie .form-price .box .in.in-bold input {
+        font-size: 16px;
+    }
+    .project_zadanie .form-price .box .in select {
+        font-size: 12px;
+    }
+    .project_zadanie .form-price .box .in label {
+        font-size: 12px;
+    }
+    .project_style,
+    .project_itap{
+        padding-top: 35px;
+    }
+    .project_style .title,
+    .project_itap .title,
+    .project_zadanie .title,
+    .project_dom .title {
+        margin-bottom: 50px;
+    }
+    .project_zadanie .form-price .box{
+        margin: 0 0 30px 0;
+    }
+    .project_dom .box .item a {
+        font-size: 14px;
+    }
+    .project_style .box .item .zag {
+        font-size: 14px;
+    }
+    .project_style .box .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .project_itap .box .item .zag{
+        font-size: 14px;
+        margin: 0;
+    }
+    .project_itap .box .item .col {
+        font-size: 16px;
+        margin: 0;
+    }
+    .project_itap .box .item {
+        margin-bottom: 20px;
+    }
+    .project_itap .box .right ul li {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .project_zadanie .form-price .box:nth-child(8),
+    .project_zadanie .form-price .box:nth-child(9){
+        margin-bottom: 30px;
+    }
+    .project_dom {
+        padding-top: 35px;
+    }
+    .project_dom .box .item {
+        width: 100%;
+    }
+    .project_dom .btn {
+        margin: 0 auto;
+    }
+}
+@media(max-width: 569px){
+    .project_uslugi .box .left .title{
+        font-size: 30px;
+    }
+    .project_zadanie .form-price .sub-form {
+        font-size: 14px;
+    }
+    .project_style .title,
+    .project_itap .title,
+    .project_zadanie .title,
+    .project_dom .title {
+        font-size: 25px;
+    }
+    .project_itap .box .item .zag {
+        width: 55%;
+    }
+    .project_itap .box{
+        padding: 0;
+    }
+    .project_itap .box .right .zag {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,297 @@
+.project_head{
+    padding: 0;
+    background: #000000;
+}
+.project_head .img{
+    overflow: hidden;
+}
+.project_head img{
+    width: 100%;
+}
+.project_head .container{
+    width: 68%;
+    padding-top: 47px;
+    padding-bottom: 71px;
+}
+.project_head .name{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 7px;
+    margin-bottom: 18px;
+}
+.project_head .zag{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    width: 80%;
+    letter-spacing: 1.2px;
+}
+.project_cifri{
+    background: #f4f6f9;
+    padding: 47px 0 85px 0;
+}
+.project_cifri .container{
+    width: 68%;
+}
+.project_cifri .box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 0 125px;
+}
+.project_cifri .box .item{
+
+}
+.project_cifri .box .item:last-child{
+    width: 32%;
+    margin-left: 80px;
+}
+.project_cifri .box .item .name{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+.project_cifri .box .item:first-child .name{
+    text-align: center;
+}
+.project_cifri .box .item .num{
+    font-family: 'RF Dewi Expanded', sans-serif;
+    font-size: 100px;
+    color: #000000;
+    text-align: center;
+}
+.project_cifri .box .item .txt{
+    font-family: 'RF Dewi Expanded', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 24px;
+    line-height: 40px;
+}
+.project_plan{
+    padding: 110px 0 58px 0;
+}
+.project_plan .container{
+    width: 68%;
+}
+.project_plan .text{
+    font-size: 24px;
+    line-height: 40px;
+    color: #7d7d7d;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    width: 83%;
+    margin: 0 auto 85px auto;
+}
+.project_plan .tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 76px;
+}
+.project_plan .tab button {
+    font-size: 14px;
+    color: #00b8e4;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: #f4f6f9;
+    border: 1px solid #f4f6f9;
+    padding: 14px 0;
+    width: 154px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.project_plan .tab button:last-child{
+    margin-left: 10px;
+}
+.project_plan .tab button:hover {
+    background: #fff;
+    border: 1px solid #00b8e4;
+}
+.project_plan .tab button.active {
+    background: #fff;
+    border: 1px solid #00b8e4;
+}
+.project_plan .tabcontent {
+    display: none;
+    padding: 0 3px;
+    overflow: hidden;
+}
+.project_plan .tabcontent img{
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 50px;
+    float: left;
+}
+.project_plan .tabcontent img:nth-child(2n){
+    float: right;
+}
+.element-animation {
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translateY(80px);
+}
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+.project_plan + .form{
+    padding-top: 1px;
+}
+.project_plan + .form .container{
+    width: 73%;
+}
+.project_plan + .form .form__left .large {
+    margin: 0 0 12px;
+    letter-spacing: 9.5px;
+}
+.project_plan + .form .form__grid{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.project_plan + .form .form__left h2{
+    margin-bottom: 33px;
+}
+.project_plan + .form .form__left p{
+    letter-spacing: 1.4px;
+}
+.project_plan + .form .form__right{
+    background: none;
+    width: 38.6%;
+    padding-top: 28px;
+}
+.project_plan + .form .input-container {
+    margin-top: 36px;
+}
+.project_plan + .form .form__container .btn {
+    margin-top: 34px;
+}
+.project_plan + .form .form__container p{
+    margin-top: 45px;
+}
+@media(max-width: 1499px){
+    .project_head .container,
+    .project_cifri .container,
+    .project_plan .container,
+    .project_plan + .form .container{
+        width: 85%;
+    }
+    .project_plan .text{
+        width: 100%;
+    }
+    .project_plan + .form .form__right {
+        width: 45%;
+    }
+    .project_cifri .box{
+        padding: 0;
+    }
+    .project_plan .tabcontent{
+        padding: 0;
+    }
+}
+@media(max-width: 1124px){
+    .project_head .container,
+    .project_cifri .container,
+    .project_plan .container,
+    .project_plan + .form .container{
+        width: 100%;
+    }
+    .project_head .zag{
+        width: 100%;
+        font-size: 35px;
+    }
+    .project_head .zag br{
+        display: none;
+    }
+    .project_cifri .box .item .num{
+        font-size: 65px;
+    }
+    .project_cifri .box .item .txt {
+        font-size: 20px;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    .project_plan .text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .project_plan + .form .form__right {
+        width: 50%;
+        padding-top: 0;
+    }
+}
+@media(max-width: 992px){
+    .project_head .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .project_head .name{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .project_cifri {
+        padding: 30px 0;
+    }
+    .project_cifri .box .item .num {
+        font-size: 50px;
+    }
+    .project_cifri .box .item .txt {
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 25px;
+    }
+    .project_plan {
+        padding: 30px 0 0 0;
+    }
+    .project_plan .text {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    .project_plan .title {
+        font-size: 25px;
+    }
+    .project_plan .tab{
+        margin-bottom: 40px;
+    }
+    .project_plan .tabcontent img{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 760px){
+    .project_head .zag {
+        font-size: 30px;
+    }
+    .project_cifri .box .item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .project_cifri .box .item:last-child {
+        width: 100%;
+        margin: 0;
+    }
+    .project_plan + .form .form__right {
+        width: 100%;
+    }
+    .project_plan + .form .form__container p {
+        margin-top: 25px;
+    }
+}
+@media(max-width: 565px){
+    .project_head img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
+    .project_plan .tabcontent img {
+        margin-bottom: 13px;
+        width: 100%;
+    }
+}

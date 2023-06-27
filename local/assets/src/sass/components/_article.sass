@@ -1,0 +1,217 @@
+.article
+  padding: 0
+  color: #7d7d7d
+
+  h2
+    margin: 0
+
+  p
+    font-size: 20px
+    line-height: 1.8
+
+  &__w1000
+    max-width: 1000px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+
+  &__w1200
+    max-width: 1200px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+
+  .fs24
+    font-size: 24px
+    line-height: 1.65
+
+  .mt90
+    margin-top: 90px
+
+  .mt70
+    margin-top: 70px
+
+  .mt50
+    margin-top: 50px
+
+  &__gallery
+    margin-left: -20px
+    margin-right: -20px
+    width: calc(100% + 40px)
+    font-size: 0
+
+    .swiper-slide
+      width: 33.333%
+      padding: 0 20px
+
+    &-item
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.11)
+
+  ul
+    padding: 20px 0 0
+
+    li
+      padding: 50px 0 0
+
+    p
+      padding-left: 55px
+
+  
+  &__slider
+    font-size: 0
+    overflow: hidden
+    width: 100%
+
+    .swiper-slide
+      overflow: hidden
+
+    .image
+      padding-bottom: 55%
+
+  // &__slider-controls
+  //   display: flex
+  //   justify-content: center
+  //   align-items: center
+  //   margin-top: 20px
+
+  //   .swiper-pagination
+  //     position: static
+  //     min-width: 100px
+  //     text-align: center
+  //     width: auto
+  //     font-size: 20px
+  //     color: #000
+  //     letter-spacing: 2px
+
+  // &__slider-arrow
+  //   width: 60px
+  //   height: 60px
+  //   border-radius: 6px
+  //   border: 1px solid $blue
+  //   transition: all $transitionSpeed $ease
+  //   cursor: pointer
+  //   position: relative
+
+  //   svg
+  //     position: absolute
+  //     top: 50%
+  //     left: 55%
+  //     transform: translate(-50%, -50%)
+  //     width: 36px
+  //     height: 36px
+
+  //     path
+  //       transition: all $transitionSpeed $ease
+
+  //   &--prev
+  //     svg
+  //       left: 45%
+  //       transform: translate(-50%, -50%) rotate(180deg)
+
+  //   &:hover
+  //     background: $blue
+
+  //     path
+  //       fill: $white
+
+
++r($desktop)
+  .article
+
+    p
+      font-size: 18px
+      line-height: 1.6
+
+    .fs24
+      font-size: 22px
+      line-height: 1.5
+
+    .mt90
+      margin-top: 70px
+
+    .mt70
+      margin-top: 50px
+
+    .mt50
+      margin-top: 35px
+
+    &__gallery
+      margin-left: -10px
+      margin-right: -10px
+      width: calc(100% + 20px)
+
+      .swiper-slide
+        padding: 0 10px
+
+    ul
+      padding: 15px 0 0
+
+      li
+        padding: 35px 0 0
+
+      p
+        padding-left: 40px
+
++r($tablet)
+  .article
+
+    p
+      font-size: 14px
+      line-height: 1.5
+
+    .fs24
+      font-size: 16px
+      line-height: 1.4
+
+    .mt90
+      margin-top: 30px
+
+    .mt70
+      margin-top: 25px
+
+    .mt50
+      margin-top: 15px
+
+    &__gallery
+      margin-left: -5px
+      margin-right: -5px
+      width: calc(100% + 10px)
+
+      .swiper-slide
+        padding: 0 5px
+
+    ul
+      padding: 10px 0 0
+
+      li
+        padding: 15px 0 0
+
+      p
+        padding-left: 30px
+
+    &__slider
+      width: calc(100% + 40px)
+      margin-left: -20px
+      margin-right: -20px
+
+      .image
+        padding-bottom: 60%
+
+    // &__slider-controls
+    //   display: flex
+    //   justify-content: center
+    //   align-items: center
+    //   margin-top: 15px
+
+    //   .swiper-pagination
+    //     font-size: 14px
+    //     letter-spacing: 1px
+
+    // &__slider-arrow
+    //   width: 40px
+    //   height: 40px
+    //   border-radius: 6px
+
+    //   svg
+    //     width: 20px
+    //     height: 20px

@@ -1,0 +1,119 @@
+h1, .h1-title
+  font-size: 60px
+  font-weight: 700
+  color: $black
+  line-height: 1.2
+  font-family: $dewi
+
+  
+  
+h2, .h2-title
+  font-size: 50px
+  font-family: $dewi
+  line-height: 1.2
+  padding-bottom: 10px
+  margin-bottom: 40px
+  text-transform: uppercase
+  color: $fontColor
+  font-weight: 700
+  position: relative
+  border-bottom: 1px solid $blue
+  letter-spacing: normal
+
+  &.small
+    font-size: 18px
+    display: inline-block
+    margin: 0
+  
+
+  &.fs80
+    font-size: 80px
+
+h3
+  font-size: 60px
+  font-family: $ago
+  line-height: 1.1
+  text-transform: uppercase
+  color: $fontColor
+  font-weight: 400
+  margin-left: -6px
+  text-align: center
+
+.h2-description
+  font-size: 20px
+  color: $grey95
+  line-height: 1.5
+  margin-top: 45px
+  max-width: 430px
+
+  a
+    color: $fontColor
+
+    span
+      transition: all $transitionSpeed $ease
+      border-bottom: 1px solid transparent
+
+    &:hover
+      span
+        border-color: $fontColor
+
++r($wide)
+  h2
+    font-size: 44px
+
+  h3
+    font-size: 44px
+
++r($wide-s)
+  h1, .h1-title
+    font-size: 50px
+
+  h2, .h2-title
+    font-size: 40px
+
+  h3
+    font-size: 38px
+
++r($desktop)
+  h1, .h1-title
+    font-size: 40px
+
+  h2, .h2-title
+    font-size: 36px
+
+  h3
+    font-size: 32px
+
+  .h2-description
+    font-size: 16px
+    margin-top: 35px
+
++r($tablet)
+  h1, .h1-title
+    font-size: 26px
+
+  h2
+    font-size: 24px
+    margin-bottom: 15px
+
+    &.fs80
+      font-size: 32px
+
+    &.small
+      font-size: 16px
+      display: inline-block
+      margin: 0
+
+  h3
+    font-size: 28px
+  
+  .h2-description
+    font-size: 14px
+    margin-top: 10px
+
++r(360)
+  h2
+    font-size: 20px
+
+  h3
+    font-size: 20px

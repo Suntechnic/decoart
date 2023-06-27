@@ -1,0 +1,153 @@
+.image-slider
+
+  &__slider
+    margin: 0 -20px
+    width: calc(100% + 40px)
+    padding: 35px 20px 0
+    position: relative
+    overflow: hidden
+
+    &:after
+      position: absolute
+      left: 0
+      top: 0
+      width: 20px
+      height: 100%
+      content: ''
+      background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 10%,rgba(255,255,255,0) 100%)
+      z-index: 2
+
+    &:before
+      position: absolute
+      right: 0
+      top: 0
+      width: 20px
+      height: 100%
+      content: ''
+      background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%)
+      z-index: 2
+
+    .swiper-slide
+      padding: 0 20px
+
+    .slider-controls
+      padding-right: 20px
+      justify-content: flex-end
+      margin-top: 35px
+
+    .slider-arrow
+      margin-left: 10px
+
+.slider
+
+  &__image
+    background: #22201e
+    padding: 15%
+    font-size: 0
+
+    .image
+      width: 100%
+      background-size: contain
+      background-repeat: no-repeat
+
+    &--license
+      padding-bottom: 0
+      position: relative
+
+      .image
+        padding-bottom: 122%
+        background-size: 100%
+        background-position: center top
+
+      &:after
+        width: 100%
+        height: 20%
+        position: absolute
+        left: 0
+        bottom: 0
+        content: ''
+        background: linear-gradient(to bottom, rgba(34,32,30,0) 0%,rgba(34,32,30,1) 100%)
+        
+
+  &__info
+    padding: 25px 0 0
+
+    .title
+      font-size: 14px
+      font-weight: 700
+      color: $black
+      font-family: $dewi
+      text-transform: uppercase
+      min-height: 34px
+
+    .info
+      font-size: 14px
+      color: $grey
+      line-height: 1.2
+      margin-top: 15px
+
++r($desktop)
+  .image-slider
+
+    &__slider
+      margin: 0 -20px
+      width: calc(100% + 40px)
+      padding: 15px 10px 0
+
+      &:after
+        width: 10px
+
+      &:before
+        width: 10px
+
+    .swiper-slide
+      padding: 0 10px
+
+    .slider-controls
+      padding-right: 10px
+      margin-top: 30px
+
+    .slider-arrow
+      margin-left: 10px
+
+  .slider
+
+    &__info
+      padding: 20px 0 0
+
+      .info
+        font-size: 14px
+        margin-top: 10px
+
++r($tablet)
+  .image-slider
+
+    &__slider
+      margin: 0 -20px
+      width: calc(100% + 40px)
+      padding: 20px 10px 0
+
+      &:after
+        display: none
+
+      &:before
+        display: none
+
+    .swiper-slide
+      padding: 0 10px
+
+    .slider-controls
+      padding-right: 10px
+      margin-top: 20px
+
+    .slider-arrow
+      margin-left: 10px
+
+  .slider
+
+    &__info
+      padding: 15px 0 0
+
+      .info
+        font-size: 14px
+        margin-top: 10px

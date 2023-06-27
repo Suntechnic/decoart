@@ -1,0 +1,19 @@
+ProjectTitle: DecoArt
+
+PageList:
+- file: 01_DecoArt_main.html
+  ready: 20
+- file: 02_DecoArt_articles.html
+  ready: 20
+- file: 03_DecoArt_article.html
+  ready: 20
+- file: 04_DecoArt_company.html
+  ready: 20
+- file: 05_DecoArt_ser_interiordes.html
+  ready: 20
+- file: 06_DecoArt_projects.html
+  ready: 20
+- file: 10_DecoArt_contacts.html
+  ready: 20
+- file: 11_DecoArt_404.html
+  ready: 20

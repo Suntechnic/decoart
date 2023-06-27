@@ -1,0 +1,93 @@
+.project_polit .container{
+    width: 68%;
+}
+.project_polit .title{
+    font-family: 'RF Dewi Expanded', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-bottom: 44px;
+}
+.project_polit .text{
+    font-size: 18px;
+    line-height: 26px;
+    color: #7d7d7d;
+    font-weight: 300;
+    width: 100%;
+    letter-spacing: 0.4px;
+}
+.project_polit .text p{
+    margin-bottom: 30px;
+}
+.project_polit .text p.large{
+    font-size: 20px;
+    font-weight: 600;
+}
+.project_polit .text p a{
+    text-decoration: none;
+    color: #00b8e4;
+}
+.project_polit .text p a:hover{
+    text-decoration: underline;
+}
+.project_polit .text ul{
+    font-size: 18px;
+    line-height: 26px;
+    color: #7d7d7d;
+    font-weight: 300;
+    width: 100%;
+}
+.project_polit .text ul li{
+
+}
+@media(max-width: 1499px){
+    .project_polit .container{
+        width: 85%;
+    }
+}
+@media(max-width: 1124px){
+    .project_polit .container{
+        width: 100%;
+    }
+    .project_polit .title{
+        font-size: 35px;
+    }
+}
+@media(max-width: 992px){
+    .project_polit{
+        padding-top: 80px;
+    }
+    .project_polit .text {
+        font-size: 16px;
+    }
+    .project_polit .text ul {
+        font-size: 16px;
+    }
+    .project_polit .text p.large {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 760px) {
+    .project_polit .title {
+        font-size: 30px;
+    }
+    .project_polit .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .project_polit .text ul {
+        font-size: 14px;
+    }
+    .project_polit .text p {
+        margin-bottom: 15px;
+    }
+    .project_polit .text p.large{
+        margin-top: 30px;
+    }
+}
+@media(max-width: 565px){
+    .project_polit .title {
+        font-size: 19px;
+    }
+}

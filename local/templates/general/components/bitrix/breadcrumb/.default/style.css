@@ -1,0 +1,44 @@
+.bx-breadcrumb {
+    margin: 150px auto -100px auto;
+    position: relative;
+    z-index: 100;
+    max-width: 1500px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bx-breadcrumb i {
+    color: #000;
+    line-height: 13px;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+.bx-breadcrumb .bx-breadcrumb-item {
+    float: left;
+    white-space: nowrap;
+    line-height: 13px;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000;
+}
+.bx-breadcrumb .bx-breadcrumb-item span {
+
+}
+.bx-breadcrumb .bx-breadcrumb-item a {
+    border-bottom: none;
+    color: #00b9e5;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 13px;
+    font-size: 10px;
+}
+.bx-breadcrumb .bx-breadcrumb-item a:hover {
+
+}

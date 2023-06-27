@@ -1,0 +1,329 @@
+/* COMPONENTS BEGIN
+
+.logotype
+  font-size: 0
+  display: inline-block
+  cursor: pointer
+
+  // img, svg
+  //   width: 157px
+  //   height: 50px
+
+
+.socials
+  display: flex
+  align-items: center
+  margin: 0 -10px
+
+  a
+    margin: 0 8px
+    padding: 0 5px
+    line-height: 0
+    color: $grey70
+
+    svg
+      path, circle
+        transition: all $transitionSpeed $ease
+
+    &:hover
+      svg
+        path, circle
+          fill: $black
+
+    &.instagram
+      svg
+        width: 24px
+        height: 24px
+
+    &.fb
+      svg
+        width: 12px
+        height: 24px
+
+    &.vk
+      svg
+        width: 31px
+        height: 20px
+
+    &.youtube
+      svg
+        width: 28px
+        height: 21px
+
+    &.pinterest
+      svg
+        width: 23px
+        height: 29px
+
+    &.telegram
+      svg
+        width: 34px
+        height: 30px
+
+    &.whatsup
+      svg
+        width: 36px
+        height: 36px
+
+.menu
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  
+  a
+    font-size: 14px
+    color: $black
+    text-transform: uppercase
+    font-weight: 400
+    margin: 0 25px
+
+    &:hover
+      color: $blue
+
+  .phone
+    display: none
+
+
+section
+  padding-top: 170px
+
+  &.no-padding-top
+    padding-top: 0
+
+// .dark-bg
+//   position: relative
+//   background: $fontColor
+//   margin-bottom: -1px
+
+//   .h2-description
+//     color: $grey95
+    
+//     a
+//       span
+//         color: $white
+
+//       &:hover
+//         span
+//           color: $grey75
+
+//   .container
+//     position: relative
+//     z-index: 10
+
+//   .btn--border
+//     border-color: $white
+//     background: transparent
+//     color: $white
+
+//     &:hover
+//       column-count: $white
+//       background: $white
+//       color: $fontColor
+
+//   h2, h3
+//     color: $white
+
+//   .info-row__info
+//     .title
+//       color: $white
+
+//       span
+//         color: $white
+
+//   .lines
+//     position: absolute
+//     height: 100%
+    
+//     .line
+//       background: #2f2f2f
+
+.image
+  display: inline-block
+  width: 100%
+  padding-bottom: 100%
+  overflow: hidden
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.slider-controls
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 20px
+
+  .swiper-pagination
+    position: static
+    min-width: 100px
+    text-align: center
+    width: auto
+    font-size: 20px
+    color: #000
+    letter-spacing: 2px
+
+.slider-arrow
+  width: 60px
+  height: 60px
+  border-radius: 6px
+  border: 1px solid $blue
+  transition: all $transitionSpeed $ease
+  cursor: pointer
+  position: relative
+
+  svg
+    position: absolute
+    top: 50%
+    left: 55%
+    transform: translate(-50%, -50%)
+    width: 36px
+    height: 36px
+
+    path
+      transition: all $transitionSpeed $ease
+
+  &--prev
+    svg
+      left: 45%
+      transform: translate(-50%, -50%) rotate(180deg)
+
+  &:hover
+    background: $blue
+
+    path
+      fill: $white
+
+ul
+  margin: 0
+  padding: 0
+
+  li
+    margin: 0
+    padding: 0
+
+  p
+    padding-left: 24px
+    position: relative
+
+    &:before
+      position: absolute
+      left: 0
+      top: 0
+      line-height: inherit
+      color: inherit
+      font-size: inherit
+      content: '—'
+
+    span
+      font-weight: 700
+
+  &.no-points
+    p
+      padding-left: 0
+      &:before
+        display: none
+
++r($wide)
+  section
+    padding-top: 110px
+
+    &.no-padding-top
+      padding-top: 0
+
+  .menu
+    
+    a
+      margin: 0 15px
+
++r($wide-s)
+  section
+    padding-top: 90px
+
+    &.no-padding-top
+      padding-top: 0
+
+  .fix-header
+    main
+      padding-top: 30px
+
++r($desktop)
+
+  .fix-header
+    main
+      padding-top: 40px
+
+  section
+    padding-top: 60px
+
+    &.no-padding-top
+      padding-top: 0
+
+  ul
+    p
+      // padding-left: 40px
+
++r($tablet)
+  .socials
+
+    a
+      font-size: 22px
+
+  section
+    padding-top: 35px
+
+    &.no-padding-top
+      padding-top: 0
+
+  .fix-header
+    main
+      padding-top: 60px
+
+  .menu
+    flex-direction: column
+    padding: 10px 0 0
+
+    a
+      padding: 12px 0
+      margin: 0
+      width: 100%
+      text-align: center
+      position: relative
+
+      &:after
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        width: 15px
+        height: 1px
+        content: ''
+        background: rgba($grey95, 0.4)
+        top: 0
+
+      &:first-child
+        &:after
+          display: none
+
+  .slider-arrow
+    width: 40px
+    height: 40px
+    border-radius: 6px
+
+    svg
+      width: 20px
+      height: 20px
+
+  .slider-controls
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 15px
+
+    .swiper-pagination
+      font-size: 14px
+      letter-spacing: 1px
+
+  ul
+    p
+      // padding-left: 30px
+
+/* COMPONENTS END

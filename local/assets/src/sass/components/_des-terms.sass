@@ -1,0 +1,272 @@
+.des-terms
+
+  &__grid
+    display: flex
+    align-items: stretch
+
+  &__el
+    border-left: 1px dotted #c8c8c8
+    padding-top: 65px
+    position: relative
+    
+    &:nth-child(1)
+      width: 58%
+
+    &:nth-child(2)
+      width: 42%
+
+    .type
+      position: absolute
+      left: -1
+      top: 0
+      display: inline-block
+      padding: 10px 20px
+      line-height: 1
+      font-family: $dewi
+      font-size: 16px
+      color: $white
+      background: $black
+
+
+    .info
+      padding: 50px 70px 0
+      font-size: 16px
+      color: $grey
+      line-height: 1.8
+
+  &__container
+    height: 300px
+    width: 100%
+    position: relative
+
+  &__row
+    display: flex
+    justify-content: space-between
+    padding: 0 30px
+    margin: 0 -20px
+    width: calc(100% + 40px)
+
+    &--charts
+      height: 100%
+      align-items: flex-end
+
+      .des-terms__column
+        height: 100%
+        display: flex
+        align-items: flex-end
+        padding-top: 0
+
+  &__chart
+    width: 100%
+    background: linear-gradient( 0deg, rgb(0,184,228) 0%, rgb(0,220,242) 56%, rgb(0,255,255) 100%)
+    position: relative
+    z-index: 2
+    max-width: 80px
+    margin: 0 auto
+
+  &__line
+    width: 100%
+    position: absolute
+    height: 1px
+    background: #e1e1e1
+    left: 0
+
+    p
+      position: absolute
+      left: calc(100% + 6px)
+      bottom: 90%
+      font-size: 12px
+      color: $black
+
+    .mobile
+      display: none
+
+    .days
+      font-size: 16px
+      font-weight: 700
+      bottom: auto
+      top: -50px
+
+    .kvm
+      font-size: 16px
+      font-weight: 700
+      bottom: auto
+      top: 22px
+      left: auto
+      right: 5px
+
+    &:nth-child(1)
+      bottom: 0
+
+    &:nth-child(2)
+      bottom: 10%
+
+    &:nth-child(3)
+      bottom: 20%
+
+    &:nth-child(4)
+      bottom: 30%
+
+    &:nth-child(5)
+      bottom: 40%
+
+    &:nth-child(6)
+      bottom: 50%
+
+    &:nth-child(7)
+      bottom: 60%
+
+    &:nth-child(8)
+      bottom: 70%
+
+    &:nth-child(9)
+      bottom: 80%
+
+    &:nth-child(10)
+      bottom: 90%
+
+    &:nth-child(11)
+      bottom: 100%
+
+  &__column 
+    flex: 1
+    padding: 20px 20px 0
+    text-align: center
+    overflow: hidden
+
+    p
+      font-size: 14px
+      font-weight: 400
+      color: $black
+      overflow: hidden
+      width: calc(100% + 20px)
+      white-space: nowrap
+      text-overflow: ellipsis
+      margin: 25px -10px 0
+
+    .bold
+      margin-top: 0
+      font-family: $dewi
+      font-size: 16px
+      font-weight: 700
+
+  
+
++r($desktop)
+  .des-terms
+
+    &__el
+      padding-top: 55px
+
+      .type
+        padding: 8px 15px
+        font-size: 14px
+
+      .info
+        padding: 25px 20px 0
+
+    &__container
+      height: 240px
+
+    &__row
+      padding: 0 20px
+      margin: 0 -10px
+      width: calc(100% + 20px)
+
+    &__line
+      width: 100%
+      position: absolute
+      height: 1px
+      background: #e1e1e1
+      left: 0
+
+      p
+        bottom: 50%
+
+      .days
+        font-size: 14px
+        left: auto
+        right: -25px
+        top: -40px
+
+      .kvm
+        font-size: 14px
+        top: 17px
+        right: -10px
+
+    &__column
+      padding: 15px 10px 0
+
+      p
+        margin: 15px -5px 0
+        width: calc(100% + 10px)
+
++r($tablet)
+  .des-terms
+
+    &__grid
+      flex-direction: column
+      align-items: flex-start
+      justify-content: flex-start
+      margin-top: -10px
+
+    &__el
+      width: 100%
+      padding-top: 50px
+      margin-top: 20px
+      padding-right: 15px
+
+      &:nth-child(1)
+        width: 100%
+
+      &:nth-child(2)
+        width: 100%
+
+      .type
+        padding: 8px 15px
+        font-size: 14px
+
+      .info
+        padding: 20px 15px 0
+        font-size: 13px
+        line-height: 1.6
+        width: calc(100% + 15px)
+
+    &__container
+      height: 200px
+
+    &__row
+      padding: 0 20px
+      margin: 0 -10px
+      width: calc(100% + 20px)
+
+    &__line
+
+      p
+        bottom: 50%
+        font-size: 10px
+
+      .mobile
+        display: inline-block
+
+      .days
+        font-size: 14px
+        left: auto
+        right: -25px
+        top: -40px
+
+      .kvm
+        font-size: 14px
+        top: 10px
+        right: -15px
+
+    &__column
+      padding: 10px 5px 0
+
+      .bold
+        font-size: 12px
+
+      p
+        margin: 10px -3px 0
+        width: calc(100% + 6px
+        text-overflow: none

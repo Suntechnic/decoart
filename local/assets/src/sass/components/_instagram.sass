@@ -1,0 +1,102 @@
+.instagram
+
+  &__row
+    display: flex
+    align-items: flex-start
+    flex-wrap: wrap
+    margin: 0 -20px
+    width: calc(100% + 40px)
+
+  &__el
+    width: 25%
+    font-size: 0
+    padding: 20px
+
+  &__item
+    width: 100%
+    font-size: 0
+    position: relative
+    display: block
+
+    img
+      width: 100%
+      height: auto
+
+    // .image
+    //   width: 100%
+    //   padding-bottom: 100%
+    //   background-size: 100%
+    //   overflow: hidden
+    //   background-position: center
+    //   transition: all $transitionSpeed $ease
+    //   position: relative
+    //   z-index: 1
+
+    &:before
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      content: ''
+      z-index: 2
+      display: block
+      background: rgba(0,0,0,0.5)
+      transition: all $transitionSpeed $ease
+      opacity: 0
+
+    span
+      position: absolute
+      left: 50%
+      display: inline-block
+      top: 50%
+      font-size: 14px
+      padding: 15px 20px
+      border-radius: 6px
+      border: 1px solid #fff
+      background: #fff
+      color: #000
+      transform: translate(-50%, -50%)
+      z-index: 3
+      transition: all $transitionSpeed $ease
+      opacity: 0
+
+    &:hover
+
+      .image
+        background-size: 106%
+
+      span
+        opacity: 1
+
+      &:before
+        opacity: 1
+
++r($desktop)
+  .instagram
+
+    &__row
+      margin: 0 -10px
+      width: calc(100% + 20px)
+
+    &__el
+      padding: 10px
+
+    &__item
+      span
+        padding: 10px 15px
+
++r($tablet)
+  .instagram
+
+    &__row
+      margin: 0 -5px
+      width: calc(100% + 10px)
+
+    &__el
+      padding: 5px
+      width: 50%
+
+    &__item
+      span
+        padding: 10px 15px

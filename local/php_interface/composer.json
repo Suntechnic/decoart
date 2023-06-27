@@ -1,0 +1,13 @@
+{
+    "name": "decoart/minisol",
+    "type": "project",
+    "autoload": {
+        "psr-4": {"App\\": "lib/App"}
+    },
+    "require-dev": {
+        "kint-php/kint": "dev-master"
+    },
+    "require": {
+        "amocrm/amocrm-api-library": "^0.12.0"
+    }
+}

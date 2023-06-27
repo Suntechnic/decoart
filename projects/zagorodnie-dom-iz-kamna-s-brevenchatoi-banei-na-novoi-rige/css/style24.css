@@ -1,0 +1,596 @@
+.project_head{
+    padding: 0;
+    background: #000000;
+}
+.project_head .img{
+    overflow: hidden;
+}
+.project_head img{
+    width: 100%;
+    transform: scale(1) translateY(0px);
+}
+.project_head .container{
+    width: 68%;
+    padding-top: 45px;
+    padding-bottom: 71px;
+}
+.project_head .name{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 7px;
+    margin-bottom: 18px;
+}
+.project_head .zag{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    width: 100%;
+    letter-spacing: 1.2px;
+}
+.project_cifri{
+    background: #f4f6f9;
+    padding: 47px 0 86px 0;
+}
+.project_cifri .container{
+    width: 68%;
+}
+.project_cifri .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project_cifri .box .item{
+
+}
+.project_cifri .box .item:last-child{
+    width: 32%;
+}
+.project_cifri .box .item .name{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+.project_cifri .box .item .num{
+    font-family: 'RF Dewi Expanded', sans-serif;
+    font-size: 100px;
+    color: #000000;
+    text-align: center;
+}
+.project_cifri .box .item .txt{
+    font-family: 'RF Dewi Expanded', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 24px;
+    line-height: 40px;
+}
+.project_plan{
+    padding: 110px 0 0 0;
+}
+.project_plan .container{
+    width: 68%;
+}
+.project_plan .text{
+    font-size: 24px;
+    line-height: 40px;
+    color: #7d7d7d;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    width: 83%;
+    margin: 0 auto 101px auto;
+}
+.project_plan .title{
+    font-family: 'RF Dewi Expanded', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.project_plan .tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 62px;
+}
+.project_plan .tab button {
+    font-size: 14px;
+    color: #00b8e4;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: #f4f6f9;
+    border: 1px solid #f4f6f9;
+    padding: 14px 55px;
+    margin-right: 8px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.project_plan .tab button:last-child{
+    margin-right: 0;
+}
+.project_plan .tab button:hover {
+    background: #fff;
+    border: 1px solid #00b8e4;
+}
+.project_plan .tab button.active {
+    background: #fff;
+    border: 1px solid #00b8e4;
+}
+.project_plan .tabcontent {
+    display: none;
+}
+.project_plan .tabcontent img{
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.project_plan .otziv{
+    margin: 97px -98px 0 -100px;
+}
+.project_plan .otziv .title{
+    font-size: 50px;
+    font-family: "RF Dewi Expanded", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 11px;
+    margin-bottom: 58px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px solid #00b8e4;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.project_plan .otziv .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 71%;
+    margin: 0 auto;
+}
+.project_plan .otziv .box .left{
+    width: 40%;
+}
+.project_plan .otziv .box .left .zag{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "RF Dewi Expanded", sans-serif;
+    letter-spacing: 0.6px;
+    margin-bottom: 13px;
+}
+.project_plan .otziv .box .left .txt{
+    font-size: 14px;
+    color: #7d7d7d;
+    letter-spacing: 0.5px;
+    margin-bottom: 36px;
+}
+.project_plan .otziv .box .left .btn{
+    padding: 15px 18px;
+    width: 210px;
+    justify-content: flex-start;
+    letter-spacing: 1.4px;
+}
+.project_plan .otziv .box .left .btn svg {
+    margin-right: 18px;
+}
+.project_plan .otziv .box .right{
+    width: 59.7%;
+    font-size: 24px;
+    color: #7d7d7d;
+    letter-spacing: 1px;
+}
+.project_slider{
+    padding: 120px 0 0 0;
+}
+.project_slider .container{
+    width: 68%;
+    position: relative;
+}
+.project_slider .item{
+    margin-bottom: 86px;
+    position: relative;
+}
+.project_slider .item:nth-child(2){
+    margin-bottom: 44px;
+}
+.project_slider .item:nth-child(3) .container{
+    width: 100%;
+    max-width: 1721px;
+}
+.project_slider .item .title{
+    font-family: 'RF Dewi Expanded', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-bottom: 44px;
+}
+.project_slider .item .text{
+    font-size: 18px;
+    line-height: 26px;
+    color: #7d7d7d;
+    font-weight: 300;
+    width: 62%;
+    padding: 0 0 0 102px;
+    letter-spacing: 0.4px;
+    margin-bottom: 53px;
+}
+.project_slider .item .slider{
+
+}
+.project_slider .item .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.project_slider .item .btns .slick-arrow{
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #00b8e4;
+    width: 60px;
+    height: 60px;
+    font-size: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.project_slider .item .btns .slick-arrow svg{
+    width: 27px;
+    height: 27px;
+}
+.project_slider .item .btns .slick-arrow:hover{
+    background: #00b8e4;
+}
+.project_slider .item .btns .slick-arrow path{
+    transition: all 0.5s;
+}
+.project_slider .item .btns .slick-arrow:hover path{
+    fill: #fff;
+}
+.project_slider .item .btns .slick-arrow.slick-prev{
+    z-index: 1;
+    transform: rotate(180deg);
+    margin-right: 37px;
+}
+.project_slider .item .btns .slick-arrow.slick-next{
+    z-index: 1;
+    margin-left: 37px;
+}
+.project_slider .item .slider-num{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 300;
+    width: 65px;
+}
+.project_slider .item .img{
+    width: 100%;
+    margin-bottom: 18px;
+}
+.project_slider .item .img img{
+    width: 100%;
+    display: block;
+}
+.project_slider .item .slider-1 .slick-active + .slick-active .img{
+    margin: 0 0 0 auto;
+}
+.project_slider .item .slider-1 .img{
+    width: 94%;
+}
+.project_slider .item:last-child .text{
+    width: 87%;
+}
+.project_slider .item .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 83%;
+    margin: 0 auto 49px auto;
+}
+.project_slider .item .box .left{
+    width: 40%;
+}
+.project_slider .item .box .right{
+    width: 60%;
+}
+.project_slider .item .box .text{
+    margin-bottom: 7px;
+    padding: 0;
+}
+.project_slider .item .box .blod{
+    font-size: 24px;
+    font-family: 'RF Dewi Expanded', sans-serif;
+    letter-spacing: 0.1px;
+}
+.project_slider .item .box .box{
+    width: 100%;
+    margin: 0 0 44px 0;
+}
+.project_slider .item .box .box .left{
+    width: 55%;
+}
+.project_slider .item .box .box .right{
+    width: 42.5%;
+}
+.element-animation {
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translateY(80px);
+}
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+@media(max-width: 1699px){
+    .project_slider .container {
+        width: 80%;
+    }
+    .project_plan .otziv .box{
+        width: 90%;
+    }
+}
+@media(max-width: 1499px){
+    .project_head .container,
+    .project_cifri .container,
+    .project_plan .container,
+    .project_slider .container{
+        width: 85%;
+    }
+    .project_plan .text{
+        width: 100%;
+    }
+    .project_plan .tabcontent img {
+        width: 100%;
+    }
+    .project_plan .otziv {
+        margin: 97px 0 0 0;
+    }
+    .project_plan .otziv .box {
+        width: 100%;
+    }
+    .project_plan .otziv .box .left {
+        width: 45%;
+    }
+    .project_plan .otziv .box .right {
+        width: 55%;
+        font-size: 22px;
+    }
+    .project_slider .item .text{
+        padding: 0;
+        width: 65%;
+    }
+    .project_slider .item .btns{
+        right: 0;
+    }
+    .project_slider .item:last-child .text {
+        width: 100%;
+    }
+    .project_slider .item .box {
+        width: 100%;
+    }
+    .project_slider .item .box .blod {
+        font-size: 20px;
+    }
+    .project_slider .item .box .left {
+        width: 35%;
+    }
+    .project_slider .item .box .right {
+        width: 65%;
+    }
+}
+@media(max-width: 1124px){
+    .project_head .container,
+    .project_cifri .container,
+    .project_plan .container,
+    .project_slider .container{
+        width: 100%;
+    }
+    .project_slider .item .btns {
+        right: 50px;
+    }
+    .project_slider .item .box {
+        width: 100%;
+    }
+    .project_head .zag{
+        width: 100%;
+        font-size: 35px;
+    }
+    .project_cifri .box .item .num{
+        font-size: 65px;
+    }
+    .project_cifri .box .item .txt {
+        font-size: 20px;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    .project_plan .text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .project_slider .item .title{
+        font-size: 35px;
+    }
+    .project_slider .item .btns .slick-arrow.slick-prev{
+        margin-right: 15px;
+    }
+    .project_slider .item .btns .slick-arrow.slick-next {
+        margin-left: 15px;
+    }
+    .project_slider .item .text {
+        width: 75%;
+    }
+    .project_plan .otziv .title {
+        font-size: 35px;
+    }
+    .project_plan .otziv .box .right{
+        font-size: 18px;
+    }
+    .project_slider .item .slider-1 .img {
+        width: 97%;
+    }
+    .project_slider .item .box .text{
+        font-size: 16px;
+    }
+    .project_slider .item .box .blod {
+        font-size: 18px;
+    }
+}
+@media(max-width: 992px){
+    .project_head .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .project_head .name{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .project_cifri {
+        padding: 30px 0;
+    }
+    .project_cifri .box .item .num {
+        font-size: 50px;
+    }
+    .project_cifri .box .item .txt {
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 25px;
+    }
+    .project_plan {
+        padding: 30px 0 0 0;
+    }
+    .project_plan .text {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    .project_plan .title {
+        font-size: 25px;
+    }
+    .project_slider .item .title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .project_slider .item .text {
+        width: 65%;
+        font-size: 16px;
+    }
+    .project_slider .item {
+        margin-bottom: 50px;
+    }
+    .project_slider .item .btns {
+        right: 35px;
+    }
+    .project_slider .item .box .img {
+        width: 49%;
+    }
+    .project_slider .item .box .blod {
+        font-size: 16px;
+    }
+}
+@media(max-width: 760px){
+    .project_head .zag {
+        font-size: 30px;
+    }
+    .project_cifri .box .item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .project_cifri .box .item:last-child {
+        width: 100%;
+    }
+    .project_slider .item .title {
+        font-size: 30px;
+    }
+    .project_slider .item .text {
+        width: 100%;
+    }
+    .project_slider .item .btns {
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .project_slider .item .text {
+        width: 100%;
+        font-size: 16px;
+        padding-bottom: 70px;
+        margin-bottom: 10px;
+    }
+    .project_slider .item:last-child .text {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .project_slider .item .box .img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .project_slider .item .box {
+        margin: 0;
+        width: 100%;
+    }
+    .project_slider .item .btns .slick-arrow{
+        width: 40px;
+        height: 40px;
+    }
+    .project_slider .item .btns .slick-arrow svg {
+        width: 20px;
+        height: 20px;
+    }
+    .project_slider {
+        padding: 50px 0 0 0;
+    }
+    .project_plan .otziv .title {
+        font-size: 30px;
+    }
+    .project_plan .otziv .box .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .project_plan .otziv .box .left .txt{
+        margin-bottom: 20px;
+    }
+    .project_plan .otziv .box .right{
+        width: 100%;
+    }
+    .project_slider .item .box .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .project_slider .item .box .right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .project_slider .item .box .box{
+        margin: 0;
+    }
+    .project_slider .item .box .box .left {
+        width: 100%;
+    }
+    .project_slider .item .box .box .right {
+        width: 100%;
+    }
+    .project_slider .item .slider-1 .img {
+        width: 100%;
+    }
+}
+@media(max-width: 565px){
+    .project_head img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
+    .project_plan .tab button{
+        padding: 14px 28px;
+    }
+    .project_plan .tab{
+        margin-bottom: 30px;
+    }
+}

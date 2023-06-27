@@ -1,0 +1,178 @@
+.team
+
+  &__row
+    position: relative
+    padding-top: 35px
+    display: flex
+    align-items: flex-start
+    flex-wrap: wrap
+    margin: 0 -20px
+    width: calc(100% + 40px)
+
+  &__el
+    padding: 0 20px
+    width: 20%
+
+    &--stay
+      overflow: visible
+    
+  &__item
+    .name
+      margin-top: 20px
+      font-size: 16px
+      font-weight: 700
+      font-family: $dewi
+      color: $black
+      text-transform: uppercase
+
+    .about
+      font-size: 10px
+      font-weight: 300
+      color: $grey
+      margin-top: 15px
+      text-transform: uppercase
+
+  &__image
+    width: 100%
+    font-size: 0
+    overflow: hidden
+    position: relative
+
+    .image
+      padding-bottom: 130%
+      background-size: cover
+
+    p
+      position: absolute
+      left: 0
+      bottom: 0
+      font-size: 24px
+      color: $blue
+      font-family: $dewi
+      text-transform: uppercase
+      display: flex
+      margin-top: auto
+      font-weight: 700
+      flex-direction: column
+
+    .arrow
+      width: 60%
+      max-width: 85px
+      height: auto
+      margin-bottom: 20px
+      order: -1
+
++r($wide-s)
+  .team
+
+    &__row
+      padding-top: 25px
+
+    &__el
+      width: 25%
+
+      &--stay
+        overflow: visible
+        width: auto
+        margin-left: auto
+        margin-top: 25px
+
+        .image
+          display: none
+
+    &__image
+
+      p
+        flex-direction: row
+        align-items: center
+        justify-content: flex-end
+        position: static
+
+      .arrow
+        width: 60%
+        max-width: 70px
+        margin: 0 0 0 25px
+        order: 0
+
++r($desktop)
+  .team
+
+    &__row
+      padding-top: 0
+      margin: 0 -10px
+      width: calc(100% + 20px)
+
+    &__el
+      width: 50%
+      padding: 15px 10px
+
+      &--stay
+        overflow: visible
+        width: auto
+        margin-left: auto
+        margin-top: 25px
+        width: 100%
+
+        .team__image
+          max-width: 100%
+          
+
+        .image
+          display: none
+
+    &__image
+      max-width: 200px
+
+      p
+        flex-direction: row
+        align-items: center
+        position: static
+        text-align: right
+
+      .arrow
+        width: 60%
+        max-width: 70px
+        margin: 0 0 0 25px
+        order: 0
+
++r($tablet)
+  .team
+
+    &__el
+      width: 50%
+      padding: 10px 10px 20px
+
+      &--stay
+        overflow: visible
+        width: auto
+        margin-left: auto
+        margin-top: 20px
+        width: 100%
+        padding: 0 10px 0 0
+
+        .team__image
+          max-width: 100%
+          
+
+        .image
+          display: none
+
+    &__item
+      
+      .name
+        font-size: 12px
+        margin-top: 12px
+
+      .about
+        margin-top: 10px
+        font-weight: 400
+
+    &__image
+
+      p
+        font-size: 20px
+
+      .arrow
+        width: 40%
+        max-width: 70px
+        margin: 0 0 0 15px
