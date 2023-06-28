@@ -21,9 +21,19 @@
 .calculation.page_calc .container > p{
     width: fit-content;
     position: absolute;
-    bottom: 190px;
+    top: 583px;
+    left: 70px;
+    font-size: 14px;
+    color: #7d7d7d;
+    font-weight: 400;
+    letter-spacing: 0.6px;
 }
-
+.calculation.page_calc .container > p:before{
+    content: '*';
+    font-size: 14px;
+    color: #00b8e4;
+    margin-right: 3px;
+}
 .calculation .box{
     display: flex;
     justify-content: space-between;
@@ -326,7 +336,7 @@
     text-decoration: none;
 }
 .calculation.page_calc{
-    padding-top: 136px;
+    padding-top: 115px !important;
 }
 .calculation.page_calc .sub-title{
     font-size: 14px;
@@ -334,20 +344,22 @@
     text-transform: uppercase;
     letter-spacing: 1.4px;
     margin-bottom: -2px;
+    display: none;
 }
 .calculation.page_calc .title{
-    font-size: 60px;
+    font-size: 50px !important;
     margin: 0 0 0 -5px;
     border: none;
-    text-transform: none;
     letter-spacing: 1px;
+    text-transform: uppercase !important;
+    border-bottom: 1px solid #00b8e4 !important;
 }
 .calculation.page_calc .box{
-    margin-top: 40px;
+    margin-top: 50px !important;
 }
 .calculation.page_calc .box .right .tab .tablinks.active {
-    background: #01b8e4;
-    color: #fff;
+    background: #f4f6f9 !important;
+    color: #01b8e4 !important;
 }
 .calculation.page_calc .box .right .tabcontent .box {
     margin-top: 50px;
@@ -792,6 +804,15 @@
     margin: 50px auto 0 auto;
     display: block;
 }
+.full-pricelist{
+    position: absolute;
+    top: 618px;
+    left: 92px;
+    width: 241px !important;
+    padding: 21px 0 !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+}
 @media(max-width: 1499px){
     .calculation .box .left {
         width: 330px;
@@ -942,9 +963,13 @@
         width: 269px;
     }
     .calculation.page_calc .container > p{
-        display: none;
-
+        position: initial;
+        margin: 20px auto 0 auto;
     }
+	.full-pricelist {
+	    position: inherit;
+	    margin: 20px auto 0 auto !important;
+	}
 }
 @media(max-width: 992px){
     .calculation .title{
@@ -1096,4 +1121,7 @@
     .info-table .txt-table table.border-table td span{
 	display: block;
     }
+	.calculation.page_calc .title {
+	    font-size: 36px !important;
+	}
 }

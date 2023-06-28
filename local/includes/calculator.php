@@ -83,7 +83,7 @@
 <section class="calculation page_calc">
     <div class="container">
         <div class="sub-title">услуги</div>
-        <h1 class="title">Стоимость</h1>
+        <h1 class="title">стоимость</h1>
         <div class="box">
             <div class="left">
                 <div class="zag">Выберите общую площадь объекта</div>
@@ -116,7 +116,7 @@
                 </div>
             </div>
         </div>
-        <p>стоимость предварительная</p>
+        <p>Стоимость на услуги предварительная</p>
     </div>
 </section>
 <script

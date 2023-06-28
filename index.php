@@ -3,7 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("ДекоАрт — дизайн и ремонт квартир в Москве, элитная студия дизайна интерьера");
 $APPLICATION->SetPageProperty('description',"Компания ДекоАрт оказывает профессиональные услуги по проектированию и дизайну помещений, а также проводит строительные и ремонтные работы под ключ. Гарантия качества!");
 ?>
-
 <?$APPLICATION->IncludeComponent(
         'x:ib.list',
         'hero2',
@@ -39,8 +38,43 @@ $APPLICATION->SetPageProperty('description',"Компания ДекоАрт о�
             )
     );?>
 
-
-
+<section class="big-text-new">
+	<div class="container">
+		<div class="text">Основным направлением деятельности нашей студии является дизайн интерьера: проектируем интерьеры квартир, загородных домов и коммерческих объектов в современном стиле. Работаем с 2006 года.</div>
+	</div>
+</section>
+<section class="styles-block">
+	<div class="container">
+		<div class="box">
+			<div class="item">
+				<div class="img"><a href="#"><img src="<?=P_IMAGES?>/styles-block-1.jpg" alt=""></a></div>
+				<div class="zag"><a href="#">GOLD CLASSIC</a></div>
+				<div class="text">Современный стиль <br>с элементами арт-деко</div>
+			</div>
+			<div class="item">
+				<div class="img"><a href="#"><img src="<?=P_IMAGES?>/styles-block-2.jpg" alt=""></a></div>
+				<div class="zag"><a href="#">WHITE CLASSIC</a></div>
+				<div class="text">Современный стиль <br>с классическими элементами</div>
+			</div>
+			<div class="item">
+				<div class="img"><a href="#"><img src="<?=P_IMAGES?>/styles-block-3.jpg" alt=""></a></div>
+				<div class="zag"><a href="#">LIGHT NATURE</a></div>
+				<div class="text">Современный стиль <br>с элементами минимализма</div>
+			</div>
+			<div class="item">
+				<div class="img"><a href="#"><img src="<?=P_IMAGES?>/styles-block-4.jpg" alt=""></a></div>
+				<div class="zag"><a href="#">DARK NATURE</a></div>
+				<div class="text">Современный стиль <br>с элементами лофта</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="services-new">
+	<div class="container">
+		<div class="text">Осуществляем полный комплекс проектных и ремонтно-строительных работ под ключ.</div>
+	</div>
+	<?include(S_P_INCLUDES.'/services.php');?>
+</section>
 
         <!-- BEGIN SECTION :: GALLERY-->
         <section class="gallery">
@@ -79,8 +113,7 @@ $APPLICATION->SetPageProperty('description',"Компания ДекоАрт о�
         <!-- END SECTION :: GALLERY-->
         
         
-        
-<?include(S_P_INCLUDES.'/services.php');?>
+       
 
 <?$APPLICATION->IncludeFile(
 		P_INCLUDES.'/calculator.php',
